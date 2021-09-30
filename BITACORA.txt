@@ -1,0 +1,5 @@
+28/09/21 - Se agrego "BITACORA.TXT" al repositorio para mantener un control de uso del mismo
+REALIZADO POR: Cristian Piña
+
+28/09/21 - Se inserto una acción nueva
+REALIZADO POR: Cristian Piña
