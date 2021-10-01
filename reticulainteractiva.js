@@ -67,7 +67,7 @@ var elements = {
   },
 
   {
-    "nombre" : "Fundamentos de investigación 2",
+    "nombre" : "Cálculo Integral",
     "horas" : "Horas totales 5",
     "horasAula" : "Horas Aula: 3",
     "horasLab"  : "Horas Lab: 2",
@@ -75,6 +75,258 @@ var elements = {
     "xpos" : 2,
     "ypos" : 1
   },
+
+
+  {
+    "nombre" : "Programación orientada a objetos ",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 2
+  },
+
+  {
+    "nombre" : "Desarrollo sustentable",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 3
+  },
+
+
+  {
+    "nombre" : "Química general",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 4
+  },
+
+  {
+    "nombre" : "Algebra lineal",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 5
+  },
+
+  {
+    "nombre" : "Probabilidad y estadística",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 6
+  },
+
+  {
+    "nombre" : "Cáclulo Vectorial",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 1
+  },
+
+
+  {
+    "nombre" : "Estructura de datos",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 2,
+    "xpos" : 3,
+    "ypos" : 2
+  },
+
+
+  {
+    "nombre" : "Contabilidad financiera",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 3
+  },
+
+  {
+    "nombre" : "Fundamentos de bases de datos",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 4
+  },
+
+  {
+    "nombre" : "Investigación de operaciones",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 5
+  },
+
+  {
+    "nombre" : "Física general",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 6
+  },
+
+  {
+    "nombre" : "Ecuaciones Diferenciales",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 1
+  },
+
+  {
+    "nombre" : "Topicos avanzados de programación",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 2
+  },
+
+  {
+    "nombre" : "Fundamentos de ingenieria de software",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 3
+  },
+
+  {
+    "nombre" : "Taller de base de datos",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 0",
+    "horasLab"  : "Horas Lab: 4",
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 4
+  },
+
+  {
+    "nombre" : "Simulación",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 5
+  },
+
+  {
+    "nombre" : "Principios Elect. Y aplicaciónes digitales",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 6
+  },
+
+
+  {
+    "nombre" : "Metodos númericos",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 1
+  },
+
+  {
+    "nombre" : "Graficación",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 2
+  },
+
+
+  {
+    "nombre" : "Sistemas Operativos",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 3
+  },
+
+
+  {
+    "nombre" : "Programación web",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 1",
+    "horasLab"  : "Horas Lab: 4",
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 4
+  },
+
+
+  {
+    "nombre" : "Fundamentos de telecomunicaciones",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 5
+  },
+
+
+  {
+    "nombre" : "Arquitectura de computadoras",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 6
+  },
+
+
+  {
+    "nombre" : "Taller de investigación I",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 0",
+    "horasLab"  : "Horas Lab: 0",
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 7
+  },
+
+
 
     ]
 }
