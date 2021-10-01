@@ -4,6 +4,11 @@ REALIZADO POR: Cristian Piña
 28/09/21 - Se inserto una acción nueva
 REALIZADO POR: Cristian Piña
 
+<<<<<<< HEAD
+29/09/21 - Se inserto una acción nueva para comprobar el funcionamiento 
+REALIZADO POR: Cristian Piñ
+=======
 
 29/09/21 -No hice la tarea :( 
 REALIZADO POR: Arlette Castro
+>>>>>>> 4c3da88ecedd1d6bb6beadf4b6e2c935b45c73ee

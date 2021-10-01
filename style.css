@@ -671,34 +671,34 @@ body {
       border-bottom-color: #000;
     }
     .cat-1 {
-      background-color: #7F637F;
+      background-color: #86A225;
     }
-    .cat-noble_gas {
-      background-color: #627279;
+    .cat-2 {
+      background-color: #B6E42C;
     }
-    .cat-alkali_metal {
-      background-color: #7E6856;
+    .cat-3 {
+      background-color: #00E42C;
     }
-    .cat-alkaline_earth_metal {
-      background-color: #807355;
+    .cat-4 {
+      background-color: #E0C689;
     }
-    .cat-metalloid {
-      background-color: #58805B;
+    .cat-5 {
+      background-color: #9F9D90;
     }
-    .cat-polyatomic_nonmetal {
-      background-color: #686180
+    .cat-6 {
+      background-color: #86A225;
     }
-    .cat-post-transition_metal {
-      background-color: #6D6B49;
+    .cat-7 {
+      background-color: #0FB62B;
     }
-    .cat-transition_metal {
-      background-color: #676C4A;
+    .cat-8 {
+      background-color: #ECA27C;
     }
-    .cat-lanthanide {
-      background-color: #5F6C49;
+    .cat-9 {
+      background-color: #C2C5C3;
     }
-    .cat-actinide {
-      background-color: #566C49;
+    .cat-10 {
+      background-color: #ffffff;
     }
     .cat-unknown_probably_transition_metal,
     .cat-unknown_probably_post-transition_metal,
