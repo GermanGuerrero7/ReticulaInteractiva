@@ -64,7 +64,17 @@ var elements = {
     "semestre"  : 1,
     "xpos" : 1,
     "ypos" : 6
-}
+  },
+
+  {
+    "nombre" : "Fundamentos de investigación 2",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 1
+  },
 
     ]
 }
@@ -113,11 +123,11 @@ function ParseElements(data, elmID) {
       // Make tye symbol container
       var symbolDiv = document.createElement("div"); //Cambiar nombre de la variable
       symbolDiv.innerHTML = json.semestre;
-      var hrsTotales = document.createElement("div");
+      var hrsTotales = document.createElement("div"); //Corresponde a hrsTotales - HrsAulasDiv + HrsLabDiv
       hrsTotales.innerHTML = json.horas;
       var hrsAulaDiv = document.createElement("div"); //  Corresponde a HrsAulaDiv
       hrsAulaDiv.innerHTML = json.horasAula;    //Corresponde a HrsAulaDiv
-      var hrsLabDiv = document.createElement("div"); //  Corresponde a HrsAulaDiv
+      var hrsLabDiv = document.createElement("div"); //  Corresponde a HrsLabDiv
       hrsLabDiv.innerHTML = json.horasLab;
       
       // Make the button and give it an id and ARIA bits
