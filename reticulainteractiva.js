@@ -326,6 +326,229 @@ var elements = {
     "ypos" : 7
   },
 
+  //Sexto semestre
+  {
+    "nombre" : "Lenguajes y autómatas 1",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 1
+  },
+
+  {
+    "nombre" : "Ingenería de software",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 2
+  },
+
+  {
+    "nombre" : "Taller de sistemas operativos",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 0",
+    "horasLab"  : "Horas Lab: 4",
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 3
+  },
+
+  {
+    "nombre" : "Cultura empresarial",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 4
+  },
+
+  {
+    "nombre" : "Redes de computadora",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 5
+  },
+
+  {
+    "nombre" : "Lenguajes de interfaz",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 6
+  },
+
+  {
+    "nombre" : "Lenguajes de interfaz",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 7
+  },
+
+  //Septimo semestre
+  {
+    "nombre" : "Lenguajes y autómas 2",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 1
+  },
+  
+  {
+    "nombre" : "Gestión de proyectos de software",
+    "horas" : "Horas totales 6",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 2
+  },
+
+  {
+    "nombre" : "Programación lógica y funcional",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 3
+  },
+
+  {
+    "nombre" : "Desarrollo web en JAVA",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 3",
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 4
+  },
+
+  {
+    "nombre" : "Conmutación y enrutamiento de redes de datos",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 3",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 5
+  },
+  
+  {
+    "nombre" : "Prog. de dispositivos móviles en Android",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 6
+  },
+
+  {
+    "nombre" : "Fundamentos de seguridad informática",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 7
+  },
+
+  // Octavo semestre
+  {
+    "nombre" : "Administración de bases de datos",
+    "horas" : "Horas totales 5",
+    "horasAula" : "Horas Aula: 1",
+    "horasLab"  : "Horas Lab: 4",
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 1
+  },
+
+  {
+    "nombre" : "Sistemas programables",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 2
+  },
+
+  {
+    "nombre" : "Inteligencia artificial",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 3
+  },
+
+  {
+    "nombre" : "Desarrollo web en .NET",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 4
+  },
+
+  {
+    "nombre" : "Administracion de redes",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 0",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 5
+  },
+
+  {
+    "nombre" : "Prog. de dispositivos móviles IOS",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: 2",
+    "horasLab"  : "Horas Lab: 2",
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 6
+  },
+
+  {
+    "nombre" : "Desarrollo de hab. prof. en inf.",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: ",
+    "horasLab"  : "Horas Lab: ",
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 7
+  },
+
+  //Noveno semestre
+  {
+    "nombre" : "Residencia Profecional",
+    "horas" : "Horas totales 4",
+    "horasAula" : "Horas Aula: ",
+    "horasLab"  : "Horas Lab: ",
+    "semestre"  : 9,
+    "xpos" : 9,
+    "ypos" : 1
+  }
 
 
     ]
