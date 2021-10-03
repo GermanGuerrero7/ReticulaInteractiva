@@ -6,8 +6,6 @@ function(){c=0});document.body.addEventListener("focus",function(a){var b=a.targ
 !0;break a}e=!1}if(e)return}}b.blur();a.preventDefault();a.stopPropagation()}},!0);document.addEventListener("click",function(a){g(a.target)&&(a.preventDefault(),a.stopPropagation())},!0)});
 
 
-// https://github.com/Bowserinator/Periodic-Table-JSON
-
 var elements = {
     "elements": [{
         "nombre" : "Cálculo diferencial",
@@ -144,7 +142,7 @@ var elements = {
     "horas" : "Horas totales 5",
     "horasAula" : "Horas Aula: 2",
     "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 2,
+    "semestre"  : 3,
     "xpos" : 3,
     "ypos" : 2
   },
@@ -562,6 +560,12 @@ function ParseElements(data, elmID) {
     // Use this if the JSON is coming over the wire
     // var JSONdata = JSON.parse(data);
     var JSONdata = data;
+
+    
+
+
+
+
     // Get the container that will hold our table
     var theContainer = document.getElementById(elmID);
     // Clear the placeholder non-JS content
@@ -663,10 +667,10 @@ function ParseElements(data, elmID) {
       dl.appendChild(dt);
       dl.appendChild(dd);
     }
-    // Create a new <li>
+    /* // Create a new <li>
     var keyItem = document.createElement("li");
     keyItem.setAttribute("role","presentation");
-    // keyItem.setAttribute("aria-hidden","true");
+    //keyItem.setAttribute("aria-hidden","true");
     keyItem.setAttribute("id","Key");
     // Give it some context
     var h2 = document.createElement("h2");
@@ -676,7 +680,11 @@ function ParseElements(data, elmID) {
     // Add the new list to it
     keyItem.appendChild(dl);
     // Add this entire mess to the <ol>
-    ol.appendChild(keyItem);
+    ol.appendChild(keyItem);*/
+
+    /*Todo lo anterior crea la iluminación de la busqueda por categorías
+    pero es necesario sacarlo de la tabla para que no se desborde
+    ***queda pendiente***/
   } catch (e) {
     console.log("ParseElements(): " + e);
   }

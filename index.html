@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- http://cdn.sci-news.com/images/enlarge4/image_5286e-Periodic-Table.jpg -->
 <header>
-    <h1>Retícula Interactiva</h1>
-  </header>
+    <img src="Icono.png" alt="Logo" class="logo">
+</header>
   
+  <div id="Tabla"> 
   <main>
     <div id="Elements">
       <p>
@@ -20,10 +20,10 @@
       </p>
     </div>
   </main>
-  
+  </div>
   <footer>
     <p>
-    The data comes from <a href="https://github.com/Bowserinator/Periodic-Table-JSON">Periodic-Table-JSON</a>, a JSON version of the Periodic Table of the Elements, and is used under Attribution-ShareAlike 3.0 Unported (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>). There is a detailed write-up about this on my blog at <a href="http://adrianroselli.com/2019/05/periodic-table-of-the-elements.html"><cite>Periodic Table of the Elements</cite></a>.
+    
     </p>
   </footer>
   
@@ -33,7 +33,7 @@
       <button type="button" id="DialogClose">Close</button>
       <!-- Need a region role becase this has a tabindex so keyboard users can scroll the box -->
       <div id="ElementDetail" tabindex="0" role="region" aria-labelledby="DialogName">
-        The JSON is good, but my parsing script is broken.
+        Tenemos que hacer un mejor parsing
       </div>
     </div>
   </div>
@@ -42,4 +42,5 @@
 </body>
 
 <script src="reticulainteractiva.js"></script>
+
 </html>
