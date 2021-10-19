@@ -1,0 +1,712 @@
+{
+    
+  "elements": [{
+        "nombre" : "Cálculo diferencial",
+        "horas" : 5,
+        "horasAula" : 3,
+        "horasLab"  : 2,
+        "semestre"  : 1,
+        "xpos" : 1,
+        "ypos" : 1,
+        "descripcion" : "La asignatura contribuye a desarrollar un pensamiento lógico-matemático al perfil del ingeniero y aporta las herramientas básicas para introducirse al estudio del cálculo y su aplicación, así como las bases para el modelado matemático. Además, proporciona herramientas que permiten modelar fenómenos de contexto.",
+        "descripcion2" : "La importancia del estudio del Cálculo Diferencial radica principalmente en proporcionar las bases para los temas en el desarrollo de las competencias del Cálculo Integral, Cálculo Vectorial, Ecuaciones Diferenciales y asignaturas de física y ciencias de la ingeniería, por lo que se pueden diseñar proyectos integradores con cualquiera de ellas.",
+        "descripcion3" : "La característica más sobresaliente de esta asignatura es que en ella se estudian las bases sobre las que se construye el cálculo diferencial. Utilizando las definiciones de función y límite se establece uno de los conceptos más importantes del cálculo: la derivada, que permite analizar razones de cambio y problemas de optimización, entre otras. La derivada es tema de trascendental importancia en las aplicaciones de la ingeniería."
+    },          
+    {
+      "nombre" : "Fundamentos de programación",
+      "horas" : 5,
+      "horasAula" : 3,
+      "horasLab"  : 2,
+      "semestre"  : 1,
+      "xpos" : 1,
+      "ypos" : 2,
+      "descripcion" : "Esta asignatura aporta al perfil del egresado, la capacidad para desarrollar un pensamiento lógico a través del diseño de algoritmos utilizando herramientas de programación para el desarrollo de aplicaciones computacionales que resuelvan problemas reales.",
+      "descripcion2" : "Está diseñada para el logro de competencias específicas y genéricas dirigidas al aprendizaje de los conceptos básicos de la programación, siendo capaz de aplicar expresiones aritméticas y lógicas en un lenguaje de programación; así como el uso y funcionamiento de las estructuras secuenciales, selectivas y repetitivas, como también la organización de los datos, además de la declaración e implementación de funciones para construir y desarrollar aplicaciones de software que requieran dichas estructuras.",
+      "descripcion3" : "Se relaciona con todas aquellas asignaturas en donde se apliquen metodologías de programación y desarrollo de software de las carreras de Ingeniería en Sistemas Computacionales e Ingeniería en Animación Digital y Efectos Visuales."
+  },
+    {
+      "nombre" : "Taller de ética",
+      "horas" : 5,
+      "horasAula" : 3,
+      "horasLab"  : 2,
+      "semestre"  : 1,
+      "xpos" : 1,
+      "ypos" : 3,
+      "descripcion" : "El Taller de ética se plantea como una asignatura común a todas las carreras del SNIT. Esto se fundamenta en lo siguiente:",
+      "descripcion2" : "En el Modelo del Siglo XXI del SNEST se busca una formación profesional que integre, en una totalidad dinámica, la competencia en el quehacer profesional con el ejercicio de una ciudadanía activa, responsable y el desarrollo psicosocial de la persona. Además, en el Código de ética del SNEST, se promueve el desarrollo armonioso de todas las facultades del ser humano. El desarrollo del profesionista requiere de una sólida formación ética.",
+      "descripcion3" : "Esta asignatura permite reflexionar y desarrollar el juicio ético, permitirá al estudiante formarse en el convencimiento de que el ejercicio de su profesión constituye no sólo una práctica con compromisos laborales y técnicas diversas, sino que es al mismo tiempo una práctica con responsabilidades como ciudadanos y como personas en la construcción de una mejor sociedad.",
+      "descripcion4": "Se busca desarrollar la comprensión de conceptos y métodos de la ética, así como la reflexión y experiencia de actos éticos, propicia que se involucre de manera consciente en la búsqueda de la congruencia entre su pensamiento, sus palabras y sus actos. Integrando el saber, el saber hacer con el saber ser."
+  },  
+  {
+    "nombre" : "Matemáticas discretas",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 1,
+    "xpos" : 1,
+    "ypos" : 4,
+    "descripcion" : "Esta asignatura aporta al perfil del egresado los conocimientos lógico-matemáticos para entender, inferir, aplicar y desarrollar modelos matemáticos tendientes a resolver problemas en el área de las ciencias computacionales.",
+    "descripcion2" : "Es el soporte para un conjunto de asignaturas que se encuentran vinculadas directamente con las competencias profesionales que se desarrollarán, por lo que se incluye en los primeros semestres de la trayectoria escolar. Aporta conocimientos a las asignaturas de Estructura de Datos y Redes de Computadoras con los conceptos básicos de Grafos y Árboles."
+    
+  },
+
+  {
+  "nombre" : "Taller de administración",
+  "horas" : 5,
+  "horasAula" : 3,
+  "horasLab"  : 2,
+  "semestre"  : 1,
+  "xpos" : 1,
+  "ypos" : 5,
+  "descripcion" : "Esta asignatura aporta al perfil del Ingeniero en sistemas computacionales la capacidad de coordinar y participar en proyectos interdisciplinarios y una visión empresarial para detectar áreas de oportunidad que le permitan emprender y desarrollar proyectos aplicando las tecnologías de la información y comunicación.",
+  "descripcion2" : "La importancia de la materia radica en la comprensión y aplicación de los principios generales de la administración y su proceso en las estructuras y funciones fundamentales de las organizaciones para el desarrollo de una visión crítica del contexto empresarial.",
+  "descripcion3" : "La materia consiste en la identificación de las áreas básicas de una organización, su administración y su entorno considerando el aspecto de tomas de decisiones y la dinámica del proceso administrativo.",
+  "descripcion4": "Esta asignatura se relaciona con los temas de etapas de la administración de proyecto y metodología de administración de proyectos con la materia de gestión de proyectos de software y con los temas de desempeño gerencial y organizacional con la materia de cultura empresarial"
+  },
+
+  {
+    "nombre" : "Fundamentos de investigación",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 1,
+    "xpos" : 1,
+    "ypos" : 6,
+    "descripcion" : "El programa de la asignatura de Fundamentos de investigación, está diseñado para contribuir en la formación integral de los estudiantes del Sistema Nacional de Institutos Tecnológicos (SNIT); desarrolla las competencias de búsqueda, y manejo de información que se utilizan para el aprendizaje conceptual, procedimental y actitudinal contenido en los planes de estudio de los programas educativos que oferta. La investigación es un proceso que habilita al profesional para conocer, analizar y descubrir áreas de oportunidad en los diferentes ámbitos donde desarrollará su profesión y proponer soluciones interdisciplinarias y colaborativas con un enfoque sustentable.",
+    "descripcion2" : "La formación de ingenieros y licenciados en un mundo globalizado, exige el dominio de herramientas de investigación que le permitan gestionar, aplicar y transformar información a contextos complejos y plurales, cuya solución de problemáticas de manera sustentable, es fundamental para la configuración de la sociedad del conocimiento. Esta asignatura se ubica en primer semestre de las carreras del SNIT, ya que integra las competencias necesarias para el desarrollo de investigación documental útil en el proceso de formación profesional durante la carrera, fortaleciendo el compromiso humano y social.",
+    "descripcion3" : "El aprendizaje como proceso social, se configura con la presencia activa de experiencias y conocimientos, de profesores, estudiantes y el contexto, en una relación dialógica con el saber y el saber ser.",
+    "descripcion4": "El profesor que imparta la asignatura de Fundamentos de investigación, debe tener experiencia en la práctica de la investigación que le permita orientar a los estudiantes, promoviendo inquietudes hacia la indagación, para vincular la teoría y la práctica. El profesor de esta asignatura deberá emplear estrategias de aprendizaje constructivistas que permitan al estudiante lograr competencias de: análisis y síntesis (desarrollo de una investigación documental), fortalecer la comunicación oral y escrita con apoyo de las TIC´s (elaborar escritos redactando sus ideas y exponerlas); permitiéndole identificar escenarios de intervención en su campo profesional."
+  },
+
+  {
+    "nombre" : "Cálculo Integral",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 1,
+    "descripcion" : "La asignatura contribuye a desarrollar un pensamiento lógico-matemático al perfil del ingeniero y aporta las herramientas básicas para desarrollar el estudio del cálculo integral y sus aplicaciones. Además, proporciona herramientas que permiten modelar fenómenos de contexto.",
+    "descripcion2" : "Cálculo Integral requiere como competencia previa todos los temas de Cálculo Diferencial y a su vez proporciona las bases para el desarrollo de las competencias del Cálculo Vectorial y Ecuaciones Diferenciales y asignaturas de física y ciencias de la ingeniería, por lo que se pueden diseñar proyectos integradores con cualquiera de ellas.",
+    "descripcion3" : "La característica más sobresaliente de esta asignatura es que en ella se estudian las bases sobre las que se construye el cálculo integral. Utilizando las definiciones de suma de Riemann, integral definida para el cálculo de áreas. Para integral indefinida se consideran los métodos de integración como parte fundamental del curso. La integral es tema de trascendental importancia en las aplicaciones de la ingeniería."
+  },
+
+
+  {
+    "nombre" : "Programación orientada a objetos ",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 2,
+    "descripcion" : "Esta asignatura aporta al perfil del Ingeniero la capacidad de analizar, desarrollar, implementar y administrar software de aplicación orientado a objetos, cumpliendo con estándares de calidad, con el fin de apoyar la productividad y competitividad de las organizaciones.",
+    "descripcion2" : "Esta materia es muy importante porque proporciona soporte a otras, más directamente vinculadas con desempeños profesionales; se ubica en el segundo semestre de la trayectoria escolar. Proporciona al estudiante las competencias necesarias para abordar el estudio de cualquier lenguaje orientado a objetos, metodología de análisis y diseño orientado a objetos, de los sistemas gestores de bases de datos, y en general de cualquier materia basada en el modelo orientado a objetos.",
+    "descripcion3" : "Para cursarla se requiere de los conocimientos y habilidades adquiridas en Fundamentos de la Programación."
+  },
+
+  {
+    "nombre" : "Desarrollo sustentable",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 3,
+    "descripcion" : "La intención de esta asignatura es que el egresado adopte valores y actitudes humanistas, que lo lleven a vivir y ejercer profesionalmente de acuerdo con principios orientados hacia la sustentabilidad, la cual es el factor medular de la dimensión filosófica del SNIT. Se pretende, entonces, la formación de ciudadanos con valores de justicia social, equidad, respeto y cuidado del entorno físico y biológico, capaces de afrontar, desde su ámbito profesional, las necesidades emergentes del desarrollo y los desafíos que se presentan en los escenarios natural, social-cultural y económico. El reto es formar individuos que hagan suya la cultura de la sustentabilidad y en poco tiempo transfieran esta cultura a la sociedad en general.",
+    "descripcion2" : "La diversidad temática del programa conforma la comprensión del funcionamiento de las dimensiones de la sustentabilidad y su articulación entre sí. Se presentan estrategias para la sustentabilidad que se han diseñado y desarrollado por especialistas, organizaciones y gobiernos a nivel internacional, nacional y local. Se refuerzan competencias para mejorar el ambiente y la calidad de vida humana, desde una perspectiva sistémica y holística.",
+    "descripcion3" : "La asignatura, por su aportación al perfil profesional, debe impartirse entre el quinto y séptimo semestre de las carreras del SNIT. Se sugiere integrar grupos con estudiantes de las distintas carreras, para fomentar el análisis y ejecución de estrategias para el desarrollo sustentable regional desde la multidisciplina, a la vez que se desarrolla la competencia de trabajar de manera interdisciplinaria.",
+    "descripcion4" : "El docente que imparta esta asignatura deberá tener conocimientos en las áreas de: química, biología, microbiología, economía, sociología, educación ambiental; es recomendable que el docente tenga experiencia en la elaboración de proyectos dirigidos a temas de desarrollo sustentable."
+  },
+
+
+  {
+    "nombre" : "Química general",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 4,
+    "descripcion" : "Esta asignatura aporta al perfil del Ingeniero los elementos necesarios de fenómenos químicos y eléctricos involucrados en el comportamiento de diferentes tipos de materiales, con los cuales pueda ayudar a tomar decisiones pertinentes ante las situaciones que se presenten en los diferentes procesos químicos dados en la industria; ayudando a fortalecer la seguridad e higiene, así como el cuidado al medio ambiente. Asimismo, le proporciona los elementos necesarios para predecir el comportamiento de las reacciones para poder optimizar los materiales obtenidos.",
+    "descripcion2" : "Al abordar los contenidos de este programa, se pretende que el estudiante integre sus conocimientos con los de otras disciplinas, siendo las bases para la asignatura de tecnología de los materiales en ingeniería eléctrica y electromecánica; la asignatura de ciencia e ingeniería de materiales en ingeniería mecatrónica; así como la asignatura de ingeniería de materiales en ingeniería aeronáutica que se encuentran vinculadas estrechamente con su desempeño profesional capacitándole para hacer un uso sustentable de los recursos naturales."
+    
+  },
+
+  {
+    "nombre" : "Álgebra lineal",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 5,
+    "descripcion" : "El Álgebra Lineal aporta al perfil del ingeniero la capacidad para desarrollar un pensamiento lógico, heurístico y algorítmico al modelar fenómenos de naturaleza lineal y resolver problemas.",
+    "descripcion2" : "Esta asignatura proporciona al estudiante de ingeniería una herramienta para resolver problemas de aplicaciones de la vida ordinaria y de aplicaciones de la ingeniería.",
+    "descripcion3" : "Muchos fenómenos de la naturaleza, que se presentan en la ingeniería, se pueden aproximar a través de un modelo lineal. Esta asignatura nos sirve para caracterizar estos fenómenos y convertirlos en un modelo lineal ya que es más accesible, de allí la importancia de estudiar Álgebra Lineal.",
+    "descripcion4" : "Esta asignatura proporciona además conceptos matemáticos relacionados con Cálculo Vectorial, Ecuaciones Diferenciales, Investigación de Operaciones y en otras asignaturas de especialidad por lo que se pueden diseñar proyectos integradores con cualquiera de ellas."
+  },
+
+  {
+    "nombre" : "Probabilidad y estadística",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 2,
+    "xpos" : 2,
+    "ypos" : 6,
+    "descripcion" : "Esta asignatura aporta al perfil del Ingeniero en las áreas referentes a la computación, comunicaciones y de Ingeniería Biomédica las competencias que le permitan entender, aplicar y desarrollar modelos matemáticos utilizando técnicas de probabilidad y estadística para el análisis de información y la toma de decisiones en las diferentes áreas de las ciencias computacionales.",
+    "descripcion2" : "La asignatura se encuentra ubicada al principio de la carrera. Probabilidad y Estadística consiste en los conceptos básicos de la teoría de la probabilidad y la estadística descriptiva de datos agrupados y no agrupados. Se enseña como razonar de manera lógica la toma decisiones en presencia de incertidumbre y variación.",
+    "descripcion3" : "El programa de este curso incluye el estudio y aplicación de las técnicas de la Estadística, aporta los conceptos y métodos de Probabilidad, modela fenómenos aleatorios, resuelve problemas reales, hace inferencias, respalda la toma de decisiones, estudia variables aleatorias, tanto de tipo discreto como de tipo continuo por lo que apoya a las asignaturas de Formulación y Evaluación de Proyectos.",
+    "descripcion4" : "Probabilidad y Estadística provee los conocimientos básicos sobre conceptos de probabilidad y pruebas estadísticas para la asignatura de Simulación, para la asignatura de Investigación de operaciones los temas de estadística descriptiva y distribuciones de probabilidad. Para la asignatura de Matemáticas para la Toma de Decisiones los temas de probabilidad y estadística le dan la introducción a teoría de inventarios. Por lo que se pueden desarrollar proyectos integradores con cualquiera de esas asignaturas."
+  },
+
+  {
+    "nombre" : "Cáclulo Vectorial",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 1,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Estructura de datos",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 2,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Contabilidad financiera",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 3,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Fundamentos de bases de datos",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 4,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Investigación de operaciones",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 5,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Física general",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 3,
+    "xpos" : 3,
+    "ypos" : 6,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Ecuaciones Diferenciales",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 1,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Topicos avanzados de programación",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 2,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Fundamentos de ingenieria de software",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 3,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Taller de base de datos",
+    "horas" : 5,
+    "horasAula" : 0,
+    "horasLab"  : 4,
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 4,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Simulación",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 5,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Principios Elect. Y aplicaciónes digitales",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 4,
+    "xpos" : 4,
+    "ypos" : 6,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Metodos númericos",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 1,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Graficación",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 2,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Sistemas Operativos",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 3,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Programación web",
+    "horas" : 5,
+    "horasAula" : 1,
+    "horasLab"  : 4,
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 4,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Fundamentos de telecomunicaciones",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 5,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Arquitectura de computadoras",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 6,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Taller de investigación I",
+    "horas" : 4,
+    "horasAula" : 0,
+    "horasLab"  : 0,
+    "semestre"  : 5,
+    "xpos" : 5,
+    "ypos" : 7,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+ 
+  {
+    "nombre" : "Lenguajes y autómatas 1",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 1,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Ingenería de software",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 2,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Taller de sistemas operativos",
+    "horas" : 4,
+    "horasAula" : 0,
+    "horasLab"  : 4,
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 3,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Cultura empresarial",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 4,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Redes de computadora",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 5,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Lenguajes de interfaz",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 6,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Lenguajes de interfaz",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 6,
+    "xpos" : 6,
+    "ypos" : 7,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Lenguajes y autómas 2",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 1,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+  
+  {
+    "nombre" : "Gestión de proyectos de software",
+    "horas" : 6,
+    "horasAula" : 3,
+    "horasLab"  : 3,
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 2,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Programación lógica y funcional",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 3,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Desarrollo web en JAVA",
+    "horas" : 5,
+    "horasAula" : 2,
+    "horasLab"  : 3,
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 4,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Conmutación y enrutamiento de redes de datos",
+    "horas" : 5,
+    "horasAula" : 3,
+    "horasLab"  : 2,
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 5,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+  
+  {
+    "nombre" : "Prog. de dispositivos móviles en Android",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 6,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Fundamentos de seguridad informática",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 7,
+    "xpos" : 7,
+    "ypos" : 7,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+
+  {
+    "nombre" : "Administración de bases de datos",
+    "horas" : 5,
+    "horasAula" : 1,
+    "horasLab"  : 4,
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 1,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Sistemas programables",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 2,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Inteligencia artificial",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 3,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Desarrollo web en .NET",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 4,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Administración de redes",
+    "horas" : 4,
+    "horasAula" : 0,
+    "horasLab"  : 2,
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 5,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Prog. de dispositivos móviles IOS",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 6,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+  {
+    "nombre" : "Desarrollo de hab. prof. en inf.",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 8,
+    "xpos" : 8,
+    "ypos" : 7,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  },
+
+ 
+  {
+    "nombre" : "Residencia Profesional",
+    "horas" : 4,
+    "horasAula" : 2,
+    "horasLab"  : 2,
+    "semestre"  : 9,
+    "xpos" : 9,
+    "ypos" : 1,
+    "descripcion" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
+    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+  }
+
+
+    ]
+}
+

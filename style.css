@@ -63,9 +63,14 @@ body {
   }
   
   #Elements li div:nth-child(2) {
-    font-size: 110%;  /*Cambia el tamaño del nombre centrarl*/
+    font-size: 120%;  /*Cambia el tamaño del nombre centrarl*/
     font-weight: bold;
-    line-height: 1.1;
+    line-height: 1.1; 
+    padding: 0.6em; /*Delimita el contenido dentro del contenedor*/
+    text-align: center; /*Justifica el texto*/
+    overflow-wrap: break-word; /*Evitar que las palabra salgan del padding */
+    hyphens: auto; /*Agrega guión para cortar las palabras el modo manual requiere &shy; en la palabra para aplicar*/
+    
   }
   
   #Elements li button {
@@ -374,28 +379,28 @@ body {
       grid-template-columns: repeat(2, 1em 12em);
     }
     #Key dt:nth-of-type(2n-1) { 
-
+      grid-column: 2;
     }
     #Key dt:nth-of-type(2n) {
-      -ms-grid-column: 3;
+      grid-column: 3;
     }
     #Key dd:nth-of-type(2n-1) {
-      -ms-grid-column: 2;
+      grid-column: 2;
     }
     #Key dd:nth-of-type(2n) {
-      -ms-grid-column: 4;
+      grid-column: 4;
     }
     #Key dl *:nth-child(n+5) {
-      -ms-grid-row: 2;
+      grid-row: 2;
     }
     #Key dl *:nth-child(n+9) {
-      -ms-grid-row: 3;
+      grid-row: 3;
     }
     #Key dl *:nth-child(n+13) {
-      -ms-grid-row: 4;
+      grid-row: 4;
     }
     #Key dl *:nth-child(n+17) {
-      -ms-grid-row: 5;
+      grid-row: 5;
     }
     li.row1 {
       grid-row: 1 / 2;
@@ -510,7 +515,7 @@ body {
     right: 0;
     background-color: rgba(0,0,0,.75);
     display: none;
-    backdrop-filter: blur(.1em); /* Maybe no */
+    /*backdrop-filter: blur(.1em); /* Maybe no */
   }
   
   [role="dialog"] {
@@ -672,12 +677,14 @@ body {
   }
   
   /* Windows High Contrast Mode Support */
-  @media screen and (-ms-high-contrast: active) {
+  /*@media screen and (-ms-high-contrast: active) {
     #Elements li button:focus, #Elements li button:hover {
       outline: 1px windowText dotted;
       background-color: windowText;
     }
-  }
+  }*/
+
+  /*
   @media screen and (-ms-high-contrast: white-on-black) {
     #Elements li button {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M71.77069 61.87311a36.53064 36.53064 0 1 0-9.89917 9.89868l21.1792 21.17792a6.9996 6.9996 0 1 0 9.89844-9.89942zM41.49994 64a22.5 22.5 0 1 1 22.5-22.5 22.52554 22.52554 0 0 1-22.5 22.5z' fill='%23fff'/%3E%3C/svg%3E");
@@ -688,7 +695,7 @@ body {
     [role="dialog"] button, [role="dialog"] button:focus, [role="dialog"] button:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 0a50 50 0 1 0 0 100A50 50 0 0 0 50 0zm26.6 76.6a37.5 37.5 0 0 1-53.2 0 37.5 37.5 0 0 1 0-53.2 37.5 37.5 0 0 1 53.2 0 37.5 37.5 0 0 1 0 53.2zm-7.3-45.9a6.6 6.6 0 0 0-9.3 0l-10 10-10-10a6.6 6.6 0 0 0-9.3 9.3l10 10-10 10a6.6 6.6 0 1 0 9.3 9.3l10-10 10 10a6.6 6.6 0 0 0 9.3 0 6.6 6.6 0 0 0 0-9.3l-10-10 10-10a6.6 6.6 0 0 0 0-9.3z' fill='%23fff'/%3E%3C/svg%3E");
     }
-  }
+  }*/
   
   @media print {
     body {
@@ -724,4 +731,9 @@ body {
     #Elements + h2 {
       page-break-before: always;
     }
+  }
+
+  #name{
+    padding: 70em;
+    margin-right: 50em;
   }
