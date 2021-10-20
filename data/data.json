@@ -328,9 +328,9 @@
     "semestre"  : 5,
     "xpos" : 5,
     "ypos" : 1,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del ingeniero la capacidad de aplicar métodos numéricos en la resolución de problemas de la ingeniería y la ciencia, auxiliándose del uso de computadoras.",
+    "descripcion2" : "Su integración se ha hecho con base en un análisis de las técnicas mediante las cuales es posible formular problemas de tal forma que pueden resolverse usando operaciones aritméticas.",
+    "descripcion3" : "Puesto que esta materia dará soporte a otras, más directamente vinculadas con desempeños profesionales; se inserta en la primera mitad de la trayectoria escolar; De manera particular, lo trabajado en esta asignatura se aplica en el estudio de los temas: modelos y control, validación de un simulador, métodos para generar variables aleatorias, entre otros."
   },
 
   {
@@ -341,9 +341,12 @@
     "semestre"  : 5,
     "xpos" : 5,
     "ypos" : 2,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales las siguientes habilidades:Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales las siguientes habilidades:",
+    "descripcion2" : "< Diseña, desarrolla y aplica modelos computacionales para solucionar problemas, mediante la selección y uso de herramientas matemáticas.",
+    "descripcion3" : "< Diseña e implementa interfaces para la automatización de sistemas de hardware y desarrollo del software asociado.",
+    "descripcion4" : "< Coordina y participa en equipos multidisciplinarios para la aplicación de soluciones innovadoras en diferentes contextos.",
+    "descripcion5" : "Esta asignatura aporta la capacidad para diseñar modelos gráficos que requieran el trazado y manipulación de objetos bidimensionales y tridimensionales, que coadyuven su implementación en diversas áreas, tales como: simulación, arte, diseño, capacitación, medicina, noticias, entretenimiento, entre otras.",
+    "descripcion6" : "La asignatura pretende que el estudiante adquiera una formación consistente en la generación de gráficos en 2 y 3 dimensiones, su transformación y efectos diversos, de cara a su aplicación posterior en el mundo de la animación y la realidad virtual."
   },
 
 
@@ -355,9 +358,9 @@
     "semestre"  : 5,
     "xpos" : 5,
     "ypos" : 3,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "La asignatura aporta al perfil del egresado, los conocimientos y habilidades necesarios para el uso y administración de sistemas operativos, así como para diseñar, configurar y administrar redes de computadoras para crear soluciones de conectividad en la organización, aplicando las normas y estándares vigentes.",
+    "descripcion2" : "Los sistemas operativos son la plataforma base a través de la cual el software puede funcionar y los usuarios pueden manipular las computadoras. Por este motivo, es importante que el estudiante conozca a detalle el diseño de un sistema operativo para entender su funcionamiento.",
+    "descripcion3" : "Ésta asignatura se requiere de las competencias adquiridas en asignaturas que contengan temas como: estructura y organización de datos, arquitectura de computadoras, computación distribuida y virtualización de sistemas operativos."
   },
 
 
@@ -369,9 +372,9 @@
     "semestre"  : 5,
     "xpos" : 5,
     "ypos" : 4,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del egresado la capacidad para desarrollar y administrar software que apoye la productividad y competitividad de las organizaciones cumpliendo con estándares de calidad, mediante el desarrollo de aplicaciones web utilizando lenguajes de marcas, de presentación, del lado del cliente, del servidor y con la colaboración de cómputo en la nube",
+    "descripcion2" : "Es de suma importancia porque permite al estudiante concluir en un proyecto formal de desarrollo de software aplicando varias competencias adquiridas durante su trayectoria de formación, por ello se inserta en los últimos semestres.",
+    "descripcion3" : "Para adquirir la competencia planteada en esta asignatura es necesario que el estudiante haya acreditado la asignatura de Programación Orientada a Objetos, Taller de Bases de Datos y Taller de Ingeniería de Software."
   },
 
 
@@ -383,9 +386,10 @@
     "semestre"  : 5,
     "xpos" : 5,
     "ypos" : 5,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del egresado la capacidad de identificar y analizar los elementos de un sistema de comunicación para el diseño eficiente de redes.",
+    "descripcion2" : "Lo trabajado en esta asignatura se aplica en el estudio de los temas: codificación, tipos de medios de transmisión, técnicas de modulación analógica y digital, conmutación y multiplexación.",
+    "descripcion3" : "Para cursar esta asignatura se requiere de los fundamentos de la electrónica básica adquiridos en las asignaturas de Sistemas electrónicos para Informática y Principios eléctricos y aplicaciones digitales.",
+    "descripcion4" : "Esta asignatura aporta los conocimientos y habilidades básicas en los temas de Redes de Computadoras."
   },
 
 
@@ -397,9 +401,14 @@
     "semestre"  : 5,
     "xpos" : 5,
     "ypos" : 6,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta los conocimientos y habilidades básicas en los temas de Redes de Computadoras.",
+    "descripcion2" : "< Implementa aplicaciones computacionales para solucionar problemas de diversos contextos, integrando diferentes tecnologías, plataformas o dispositivos.",
+    "descripcion3" : "< Diseña e implementa interfaces para la automatización de sistemas de hardware y desarrollo del software asociado.",
+    "descripcion4" : "< Coordina y participa en equipos multidisciplinarios para la aplicación de soluciones innovadoras en diferentes contextos.",
+    "descripcion5" : "< Evalúa tecnologías de hardware para soportar aplicaciones de manera efectiva.",
+    "descripcion6" : "< Se desempeña con ética, legalidad y responsabilidad social.",
+    "descripcion7" : "Para integrarla se hizo un análisis de la materia de Principios Eléctricos y Aplicaciones Digitales, identificando temas de electrónica digital que tienen mayor aplicación en el quehacer profesional del Ingeniero en Sistemas Computacionales.",
+    "descripcion8" : "Puesto que esta materia dará soporte a Lenguajes y Autómatas I, y Lenguajes de Interfaz, directamente vinculadas con desempeño profesionales, se inserta después de la primera mitad de la trayectoria escolar. De manera particular, lo trabajado en esta asignatura, se aplicará a los temas de estudios: Programación básica, Programación de dispositivos, Programación Móvil, Estructura de un traductor y los Autómatas I y II."
   },
 
 
@@ -411,9 +420,9 @@
     "semestre"  : 5,
     "xpos" : 5,
     "ypos" : 7,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "En Taller de investigación I, los estudiantes adquieren la competencia para elaborar un protocolo de investigación, con el cual se apropien de las herramientas metodológicas que les permitan problematizar la realidad, pero además, aplicar conocimientos, desarrollar un sentido crítico y propositivo, mismo que se verifica al exponer y socializar sus proyectos.",
+    "descripcion2" : "Se propone que las asignaturas de Taller de investigación I y II, sean guiadas por especialistas del área, con experiencia en investigación, con la finalidad de que oriente al estudiante en los aspectos técnicos de su campo profesional. Es conveniente que el docente busque que los estudiantes participen en proyectos integradores disciplinarios o multidisciplinarios en los que se trabaje en forma colaborativa con otros estudiantes, fomentando así las competencias de habilidades de trabajo en equipo y relaciones interpersonales.",
+    "descripcion3" : "Es conveniente que se conserve una copia de los productos (protocolos) y su evaluación, a fin de verificar la originalidad de las propuestas y dar un seguimiento a los mismos."
   },
 
  
@@ -425,9 +434,12 @@
     "semestre"  : 6,
     "xpos" : 6,
     "ypos" : 1,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "En esta asignatura se abordan todos los temas relacionados con teoría de lenguajes formales, algo que permite vislumbrar los procesos inherentes, y a veces, escondidos dentro de todo lenguaje. Las formas de representación formal, procesamiento e implementación de lenguajes de programación se atacan desde un punto de vista de implementación. Los proyectos relacionados y los ejercicios de investigación acercan a los estudiantes al campo de lenguajes formales, base de los procesos de comunicación. Por último se revisan algunos de los puntos eje de la investigación de frontera que aún contienen problemas abiertos, un incentivo para la incorporación de estudiantes a las áreas de investigación.",
+    "descripcion2" : "Las asignaturas directamente vinculadas son estructura de datos por las herramientas para el procesamiento de información que proporciona (árboles binarios, pilas, colas, tablas de Hash), todas aquellas que incluyan lenguajes de programación, porque son las herramientas para el desarrollo de cualquiera de las prácticas dentro de la asignatura y permitirán un enfoque práctico para todos los temas de la misma. La materia de arquitectura de computadoras dota al estudiante de los conocimientos sobre la estructura de registros, modos de direccionamiento, conjunto de operadores, y le da al estudiante una visión sobre cómo mejorar el desempeño de lenguajes.",
+    "descripcion3" : "Esta materia sirve de preámbulo para la asignatura de lenguajes y autómatas II, en la cual se completa el estudio formal de la teoría de lenguajes.",
+    "descripcion4" : "A su vez permitirá el desarrollo de las siguientes competencias específicas:",
+    "descripcion5" : "< Implementa aplicaciones computacionales para solucionar problemas de diversos contextos, integrando diferentes tecnologías, plataformas o dispositivos.",
+    "descripcion6" : "< Diseña, desarrolla y aplica modelos computacionales para solucionar problemas, mediante la selección y uso de herramientas matemáticas."
   },
 
   {
@@ -438,9 +450,9 @@
     "semestre"  : 6,
     "xpos" : 6,
     "ypos" : 2,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "La importancia de esta asignatura, es que permite al estudiante aplicar las fases de la metodología para el desarrollo de un sistema en un contexto multidisciplinario; aplicando el conocimiento científico, a través de los métodos, técnicas y normas adecuados, para el desarrollo de software.",
+    "descripcion2" : "La disciplina de Ingeniería de Software se relaciona con materias precedentes como: Fundamentos de Programación, Programación Orientada a Objetos, Estructura de Datos, Fundamentos de Ingeniería de Software, Tópicos Avanzados de Programación, Sistemas Operativos, Arquitectura de Computadoras y Taller de Bases de Datos; y con las materias posteriores: Gestión de Proyectos de Software y Programación Web.",
+    "descripcion3" : "Requiere de competencias previas como: Manejo de un lenguaje de modelado, dominio en el uso de herramientas CASE, uso de algún Sistema Manejador de Bases de Datos, dominio de algún lenguaje de programación orientado a objetos, identificación de las etapas del ciclo de desarrollo de sistemas y de las diferentes plataformas operativas."
   },
 
   {
@@ -451,9 +463,9 @@
     "semestre"  : 6,
     "xpos" : 6,
     "ypos" : 3,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "El estudiante obtendrá los conocimientos y habilidades necesarias para la administración de diferentes sistemas operativos, con el propósito de brindar diferentes alternativas de solución a problemas reales en la industria.",
+    "descripcion2" : "La aportación de dicha materia, pretende emplear, competencias previas adquiridas de la asignatura de sistemas operativos, con el fin de que el estudiante posea un criterio base para la elección del sistema operativo a emplear.",
+    "descripcion3" : "A su vez, las competencias que desarrolla el estudiante al finalizar dicha materia, le permitirán instalar y administrar sistemas operativos para la implementación futura de servicios de red y su monitorización."
   },
 
   {
@@ -464,9 +476,9 @@
     "semestre"  : 6,
     "xpos" : 6,
     "ypos" : 4,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil de del ingeniero en Sistemas computacionales la capacidad para coordinar y participar en equipos multidisciplinarios para la aplicación de soluciones innovadoras en diferentes contextos, así como detectar áreas de oportunidad empleando una visión empresarial para crear proyectos aplicando las Tecnologías de la Información y Comunicación mediante la construcción de un plan de negocios para crear una empresa considerando el análisis de mercado, estudio técnico, organización, análisis financiero y estados financieros del proyecto.",
+    "descripcion2" : "Cabe destacar que el contenido de esta materia se apega a los lineamientos marcados por la convocatoria del concurso nacional de emprendedores convocado por la SEP y por el concurso nacional de innovación y desarrollo tecnológico convocado por DGEST. Para integrarla se ha hecho un análisis de los procesos que debe conocer toda persona que presta sus servicios profesionales de manera independiente. Esta materia es transversal a la carrera de Ingeniería en Sistemas Computacionales porque en la actualidad todo profesional debe ser capaz de ofrecer y vender sus servicios de manera autónoma; está enfocada a favorecer las habilidades en el estudiante para diseñar, desarrollar e implementar un plan de negocio traduciéndolo en una empresa rentable que opere bajo marcos legales. De manera particular, la competencia adquirida en esta asignatura se aplica a la implementación, operación, administración y proyección de una empresa que atiende las necesidades computacionales y comerciales de su entorno.",
+    "descripcion3" : "Esta asignatura se relaciona con contabilidad financiera en los temas análisis financiero, registro de operaciones, Teoría de la partida doble, sistemas de registro, análisis e interpretación de la información financiera."
   },
 
   {
@@ -477,9 +489,12 @@
     "semestre"  : 6,
     "xpos" : 6,
     "ypos" : 5,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales las siguientes habilidades:",
+    "descripcion2" : "< Implementa aplicaciones computacionales para solucionar problemas de diversos contextos, integrando diferentes tecnologías, plataformas o dispositivos.",
+    "descripcion3" : "< Desarrolla y administra software para apoyar la productividad y competitividad de las organizaciones cumpliendo con estándares de calidad.",
+    "descripcion4" : "< Evalúa tecnologías de hardware para soportar aplicaciones de manera efectiva.",
+    "descripcion5" : "< Diseña, configura y administra redes de computadoras para crear soluciones de conectividad en la organización, aplicando las normas y estándares vigentes.",
+    "descripcion6" : "Integra la capacidad de conocer, analizar y aplicar los diversos componentes tanto físicos como lógicos involucrados en la planeación, diseño e instalación de las redes de computadoras, mediante el análisis de los fundamentos, estándares y normas vigentes."
   },
 
   {
@@ -490,9 +505,12 @@
     "semestre"  : 6,
     "xpos" : 6,
     "ypos" : 6,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales las siguientes habilidades:Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales las siguientes habilidades:",
+    "descripcion2" : "< Implementa aplicaciones computacionales para solucionar problemas de diversos contextos, integrando diferentes tecnologías, plataformas o dispositivos.",
+    "descripcion3" : "< Desarrolla y administra software para apoyar la productividad y competitividad de las organizaciones cumpliendo con estándares de calidad.",
+    "descripcion4" : "< Coordina y participa en equipos multidisciplinarios para la aplicación de soluciones.",
+    "descripcion5" : "< Diseña e implementa interfaces para la automatización de sistemas de hardware y desarrollo del software asociado.",
+    "descripcion6" : "La presente asignatura aporta los conocimientos para el diseño e implementación de interfaces hombremáquina y máquina-máquina para la automatización de sistemas. El desarrollo, implementación y administración de software de sistemas o de aplicación que cumpla con los estándares de calidad con el fin de apoyar la productividad y competitividad de las organizaciones. Para que desempeñe sus actividades profesionales considerando los aspectos legales, éticos, sociales y de desarrollo sustentable y a la vez le permita poseer las habilidades metodológicas de investigación que fortalezcan el desarrollo cultural, científico y tecnológico en el ámbito de sistemas computacionales y disciplinas afines."
   },
 
   {
