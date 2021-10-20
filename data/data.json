@@ -514,7 +514,7 @@
   },
 
   {
-    "nombre" : "Lenguajes de interfaz",
+    "nombre" : "Taller de investigación II",
     "horas" : 4,
     "horasAula" : 2,
     "horasLab"  : 2,
@@ -528,7 +528,7 @@
 
 
   {
-    "nombre" : "Lenguajes y autómas 2",
+    "nombre" : "Lenguajes y autómatas 2",
     "horas" : 5,
     "horasAula" : 2,
     "horasLab"  : 3,
@@ -567,7 +567,7 @@
   },
 
   {
-    "nombre" : "Desarrollo web en JAVA",
+    "nombre" : "Desarrollo web pila completa I",
     "horas" : 5,
     "horasAula" : 2,
     "horasLab"  : 3,
@@ -659,7 +659,7 @@
   },
 
   {
-    "nombre" : "Desarrollo web en .NET",
+    "nombre" : "Desarrollo web pila completa",
     "horas" : 4,
     "horasAula" : 2,
     "horasLab"  : 2,

@@ -226,7 +226,7 @@ function OpenDialog(eID,elName) {
     }
     // Hide the content behind the overlay
     // Esconde el contenido detrás del overlay
-    overlay.style.display = "block";
+    overlay.style.display = "block"; //overlay.style.display = "block";
     // Add click handler to overlay
     // Agrega un manejador para el overlay
     overlay.setAttribute("onclick","CloseDialog('" + eID + "');");

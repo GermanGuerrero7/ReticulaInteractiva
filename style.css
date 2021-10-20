@@ -507,19 +507,19 @@ body {
   /* Dialog */
   
   #Overlay {
-    position: absolute;
+    position: fixed;  /*Para hacer la ilusión de que toda la pantalla esta cubierta*/
     z-index: 150;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0,.75);
+    background-color: rgba(0,0,0,0.65);
     display: none;
     /*backdrop-filter: blur(.1em); /* Maybe no */
   }
   
   [role="dialog"] {
-    position: absolute;
+    position: fixed;
     z-index: 200;
     top: 10vh;
     bottom: 10vh;
