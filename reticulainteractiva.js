@@ -6,589 +6,50 @@ function(){c=0});document.body.addEventListener("focus",function(a){var b=a.targ
 !0;break a}e=!1}if(e)return}}b.blur();a.preventDefault();a.stopPropagation()}},!0);document.addEventListener("click",function(a){g(a.target)&&(a.preventDefault(),a.stopPropagation())},!0)});
 
 
-var elements = {
-    "elements": [{
-        "nombre" : "Cálculo diferencial",
-        "horas" : "Horas totales 5",
-        "horasAula" : "Horas Aula: 3",
-        "horasLab"  : "Horas Lab: 2",
-        "semestre"  : 1,
-        "xpos" : 1,
-        "ypos" : 1
-    },
-    {
-      "nombre" : "Fundamentos de programación",
-      "horas" : "Horas totales 5",
-      "horasAula" : "Horas Aula: 3",
-      "horasLab"  : "Horas Lab: 2",
-      "semestre"  : 1,
-      "xpos" : 1,
-      "ypos" : 2
-  },
-    {
-      "nombre" : "Taller de etica",
-      "horas" : "Horas totales 5",
-      "horasAula" : "Horas Aula: 3",
-      "horasLab"  : "Horas Lab: 2",
-      "semestre"  : 1,
-      "xpos" : 1,
-      "ypos" : 3
-  },
-  {
-    "nombre" : "Matemáticas discretas",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 1,
-    "xpos" : 1,
-    "ypos" : 4
-  },
-
-  {
-  "nombre" : "Taller de administración",
-  "horas" : "Horas totales 5",
-  "horasAula" : "Horas Aula: 3",
-  "horasLab"  : "Horas Lab: 2",
-  "semestre"  : 1,
-  "xpos" : 1,
-  "ypos" : 5
-  },
-
-  {
-    "nombre" : "Fundamentos de investigación",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 1,
-    "xpos" : 1,
-    "ypos" : 6
-  },
-
-  {
-    "nombre" : "Cálculo Integral",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 2,
-    "xpos" : 2,
-    "ypos" : 1
-  },
-
-
-  {
-    "nombre" : "Programación orientada a objetos ",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 2,
-    "xpos" : 2,
-    "ypos" : 2
-  },
-
-  {
-    "nombre" : "Desarrollo sustentable",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 2,
-    "xpos" : 2,
-    "ypos" : 3
-  },
-
-
-  {
-    "nombre" : "Química general",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 2,
-    "xpos" : 2,
-    "ypos" : 4
-  },
-
-  {
-    "nombre" : "Algebra lineal",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 2,
-    "xpos" : 2,
-    "ypos" : 5
-  },
-
-  {
-    "nombre" : "Probabilidad y estadística",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 2,
-    "xpos" : 2,
-    "ypos" : 6
-  },
-
-  {
-    "nombre" : "Cáclulo Vectorial",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 3,
-    "xpos" : 3,
-    "ypos" : 1
-  },
-
-
-  {
-    "nombre" : "Estructura de datos",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 3,
-    "xpos" : 3,
-    "ypos" : 2
-  },
-
-
-  {
-    "nombre" : "Contabilidad financiera",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 3,
-    "xpos" : 3,
-    "ypos" : 3
-  },
-
-  {
-    "nombre" : "Fundamentos de bases de datos",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 3,
-    "xpos" : 3,
-    "ypos" : 4
-  },
-
-  {
-    "nombre" : "Investigación de operaciones",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 3,
-    "xpos" : 3,
-    "ypos" : 5
-  },
-
-  {
-    "nombre" : "Física general",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 3,
-    "xpos" : 3,
-    "ypos" : 6
-  },
-
-  {
-    "nombre" : "Ecuaciones Diferenciales",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 4,
-    "xpos" : 4,
-    "ypos" : 1
-  },
-
-  {
-    "nombre" : "Topicos avanzados de programación",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 4,
-    "xpos" : 4,
-    "ypos" : 2
-  },
-
-  {
-    "nombre" : "Fundamentos de ingenieria de software",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 4,
-    "xpos" : 4,
-    "ypos" : 3
-  },
-
-  {
-    "nombre" : "Taller de base de datos",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 0",
-    "horasLab"  : "Horas Lab: 4",
-    "semestre"  : 4,
-    "xpos" : 4,
-    "ypos" : 4
-  },
-
-  {
-    "nombre" : "Simulación",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 4,
-    "xpos" : 4,
-    "ypos" : 5
-  },
-
-  {
-    "nombre" : "Principios Elect. Y aplicaciónes digitales",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 4,
-    "xpos" : 4,
-    "ypos" : 6
-  },
-
-
-  {
-    "nombre" : "Metodos númericos",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 5,
-    "xpos" : 5,
-    "ypos" : 1
-  },
-
-  {
-    "nombre" : "Graficación",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 5,
-    "xpos" : 5,
-    "ypos" : 2
-  },
-
-
-  {
-    "nombre" : "Sistemas Operativos",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 5,
-    "xpos" : 5,
-    "ypos" : 3
-  },
-
-
-  {
-    "nombre" : "Programación web",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 1",
-    "horasLab"  : "Horas Lab: 4",
-    "semestre"  : 5,
-    "xpos" : 5,
-    "ypos" : 4
-  },
-
-
-  {
-    "nombre" : "Fundamentos de telecomunicaciones",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 5,
-    "xpos" : 5,
-    "ypos" : 5
-  },
-
-
-  {
-    "nombre" : "Arquitectura de computadoras",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 5,
-    "xpos" : 5,
-    "ypos" : 6
-  },
-
-
-  {
-    "nombre" : "Taller de investigación I",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 0",
-    "horasLab"  : "Horas Lab: 0",
-    "semestre"  : 5,
-    "xpos" : 5,
-    "ypos" : 7
-  },
-
-  //Sexto semestre
-  {
-    "nombre" : "Lenguajes y autómatas 1",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 6,
-    "xpos" : 6,
-    "ypos" : 1
-  },
-
-  {
-    "nombre" : "Ingenería de software",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 6,
-    "xpos" : 6,
-    "ypos" : 2
-  },
-
-  {
-    "nombre" : "Taller de sistemas operativos",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 0",
-    "horasLab"  : "Horas Lab: 4",
-    "semestre"  : 6,
-    "xpos" : 6,
-    "ypos" : 3
-  },
-
-  {
-    "nombre" : "Cultura empresarial",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 6,
-    "xpos" : 6,
-    "ypos" : 4
-  },
-
-  {
-    "nombre" : "Redes de computadora",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 6,
-    "xpos" : 6,
-    "ypos" : 5
-  },
-
-  {
-    "nombre" : "Lenguajes de interfaz",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 6,
-    "xpos" : 6,
-    "ypos" : 6
-  },
-
-  {
-    "nombre" : "Lenguajes de interfaz",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 6,
-    "xpos" : 6,
-    "ypos" : 7
-  },
-
-  //Septimo semestre
-  {
-    "nombre" : "Lenguajes y autómas 2",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 7,
-    "xpos" : 7,
-    "ypos" : 1
-  },
-  
-  {
-    "nombre" : "Gestión de proyectos de software",
-    "horas" : "Horas totales 6",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 7,
-    "xpos" : 7,
-    "ypos" : 2
-  },
-
-  {
-    "nombre" : "Programación lógica y funcional",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 7,
-    "xpos" : 7,
-    "ypos" : 3
-  },
-
-  {
-    "nombre" : "Desarrollo web en JAVA",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 3",
-    "semestre"  : 7,
-    "xpos" : 7,
-    "ypos" : 4
-  },
-
-  {
-    "nombre" : "Conmutación y enrutamiento de redes de datos",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 3",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 7,
-    "xpos" : 7,
-    "ypos" : 5
-  },
-  
-  {
-    "nombre" : "Prog. de dispositivos móviles en Android",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 7,
-    "xpos" : 7,
-    "ypos" : 6
-  },
-
-  {
-    "nombre" : "Fundamentos de seguridad informática",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 7,
-    "xpos" : 7,
-    "ypos" : 7
-  },
-
-  // Octavo semestre
-  {
-    "nombre" : "Administración de bases de datos",
-    "horas" : "Horas totales 5",
-    "horasAula" : "Horas Aula: 1",
-    "horasLab"  : "Horas Lab: 4",
-    "semestre"  : 8,
-    "xpos" : 8,
-    "ypos" : 1
-  },
-
-  {
-    "nombre" : "Sistemas programables",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 8,
-    "xpos" : 8,
-    "ypos" : 2
-  },
-
-  {
-    "nombre" : "Inteligencia artificial",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 8,
-    "xpos" : 8,
-    "ypos" : 3
-  },
-
-  {
-    "nombre" : "Desarrollo web en .NET",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 8,
-    "xpos" : 8,
-    "ypos" : 4
-  },
-
-  {
-    "nombre" : "Administracion de redes",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 0",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 8,
-    "xpos" : 8,
-    "ypos" : 5
-  },
-
-  {
-    "nombre" : "Prog. de dispositivos móviles IOS",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: 2",
-    "horasLab"  : "Horas Lab: 2",
-    "semestre"  : 8,
-    "xpos" : 8,
-    "ypos" : 6
-  },
-
-  {
-    "nombre" : "Desarrollo de hab. prof. en inf.",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: ",
-    "horasLab"  : "Horas Lab: ",
-    "semestre"  : 8,
-    "xpos" : 8,
-    "ypos" : 7
-  },
-
-  //Noveno semestre
-  {
-    "nombre" : "Residencia Profecional",
-    "horas" : "Horas totales 4",
-    "horasAula" : "Horas Aula: ",
-    "horasLab"  : "Horas Lab: ",
-    "semestre"  : 9,
-    "xpos" : 9,
-    "ypos" : 1
-  }
-
-
-    ]
-}
 
 // Global variable for the dialog close
+// Variable global para el cierre del dialogo
 var DialogTrigger;
 
 function ParseElements(data, elmID) {
   try {
     // Use this if the JSON is coming over the wire
-    // var JSONdata = JSON.parse(data);
+    // Usar estp si el JSON viene desde un servidor
+    //var JSONdata = JSON.parse(data);
     var JSONdata = data;
-
-    
-
-
-
-
     // Get the container that will hold our table
+    // Genera el contenedor de nuestra tabla
     var theContainer = document.getElementById(elmID);
     // Clear the placeholder non-JS content
+    // Borra el contenido  que no es JS
     theContainer.innerHTML = "";
     // Create an <ol> to contain it all and add it to the page
+    // Crea un <ol> para contener todo y lo agrega a la página
     var ol = document.createElement("ol");
+    //Le da el id = "Table" a <ol>
     ol.setAttribute("id","Table");
+    //Agrega a <ol> como un hijo del contenedor
     theContainer.appendChild(ol);
     // Grab the JSON nodes
+    // Obtiene los nodos de config.js
     var filteredNodes = JSONdata.elements;
     // Blank category array
+    // Arreglo de categorias en blanco
     var catLookup = {};
     var catArray = [];
     // Loop through the elements nodes
+    // Un ciclo para recorrer los nodos de las materias
     for (var a = 0; a < filteredNodes.length; a++) {
       var json = filteredNodes[a];
-      console.log(filteredNodes[a])
+      //console.log(filteredNodes[a])
       // Create the <li>, give it an id and row/col info
+      // Crea el <li>, y le da un id e información de fila/columna
       var elementNode = document.createElement("li");
       elementNode.setAttribute("id",json.nombre);
       elementNode.classList.add("row" + json.ypos);
       elementNode.classList.add("col" + json.xpos);
       // Get the category and concatenate into the class
+      //Obtiene la categoria y la concatena en la clase
       var rawCat = json.semestre;
       var stringCat = rawCat;
       //stringCat = stringCat.split(' ').join('_');
@@ -596,20 +57,24 @@ function ParseElements(data, elmID) {
       elementNode.classList.add("cat-" + stringCat);
       
       // Make the name container and give it an id
+      // Hace un contenedor del nombre y le da un id
       var nameDiv = document.createElement("div");
       nameDiv.setAttribute("id","name" + json.nombre);
-      nameDiv.innerHTML = json.nombre; //Este cambia el valor central de cada recuadro
-      // Make tye symbol container
-      var symbolDiv = document.createElement("div"); //Cambiar nombre de la variable
-      symbolDiv.innerHTML = json.semestre;
-      var hrsTotales = document.createElement("div"); //Corresponde a hrsTotales - HrsAulasDiv + HrsLabDiv
-      hrsTotales.innerHTML = json.horas;
-      var hrsAulaDiv = document.createElement("div"); //  Corresponde a HrsAulaDiv
-      hrsAulaDiv.innerHTML = json.horasAula;    //Corresponde a HrsAulaDiv
-      var hrsLabDiv = document.createElement("div"); //  Corresponde a HrsLabDiv
-      hrsLabDiv.innerHTML = json.horasLab;
+      // Coloca el nombre en la posición central de cada recuadro
+      nameDiv.innerHTML = json.nombre; 
+      
+      // Este bloque crea los div de cada categoría
+      var semestreDiv = document.createElement("div"); 
+      semestreDiv.innerHTML = json.semestre;
+      var hrsTotales = document.createElement("div"); 
+      hrsTotales.innerHTML = "Hrs. Totales: " + json.horas;
+      var hrsAulaDiv = document.createElement("div"); 
+      hrsAulaDiv.innerHTML = "Hrs. Aulas: " + json.horasAula;    
+      var hrsLabDiv = document.createElement("div"); 
+      hrsLabDiv.innerHTML = "Hrs. Lab: " + json.horasLab;
       
       // Make the button and give it an id and ARIA bits
+      // Crea el bóton y le da un id y ARIA Bits (Atributo de accesibilidad)
       var detailButton = document.createElement("button");
       detailButton.innerHTML = "details.";
       detailButton.setAttribute("type","button");
@@ -618,17 +83,19 @@ function ParseElements(data, elmID) {
       detailButton.setAttribute("aria-labelledby",labelledby);
       detailButton.setAttribute("onclick","OpenDialog(this.id,'" + json.nombre + "');");
       // Add all the nodes to the <li>
-      //elementNode.appendChild(numberDiv);
-      elementNode.appendChild(symbolDiv);
+      // Agrega todos los nodos al elemento <li>
+      elementNode.appendChild(semestreDiv);
       elementNode.appendChild(nameDiv);
       elementNode.appendChild(hrsTotales);
-      elementNode.appendChild(hrsAulaDiv); //Se debe cambiar hrsAulaDiv
+      elementNode.appendChild(hrsAulaDiv); 
       elementNode.appendChild(hrsLabDiv);
-      
-      elementNode.appendChild(detailButton);
+      elementNode.appendChild(detailButton); //Pendiente
       // Add the <li> to the <ol>
+      // Agrega el elemento <li> al <ol>
       ol.appendChild(elementNode);
       // Loop through the category and add distinct to array
+      // Hace un recorrido a través de las categorias y agrega los distintas al arreglo
+
       if (!(rawCat in catLookup)) {
         catLookup[rawCat] = 1;
         catArray.push(rawCat);
@@ -636,22 +103,26 @@ function ParseElements(data, elmID) {
       }
     }
     // Create a <dl> to hold categories
+    // Crea un <dl> que contiene laas categorias
     var dl = document.createElement("dl");
     for (var i = 0; i < catArray.length; i++) {
       var catText = catArray[i];
       var catString;
-      //catString = catText.split(' ').join('_');
-      //catString = catString.split(',').join('');
+      //catString = catText.split(' ').join('_'); //Es posible que se tengan que remover
+      //catString = catString.split(',').join(''); //Es posible que se tengan que remover
       catString = "cat-" + catString;
-      console.log(catString);
+      //console.log(catString);
       // Make the color container and class it
+      // Hace el contenedor de los colores y les da una clase
       var dt = document.createElement("dt");
       dt.classList.add(catString);
       // Make the category container
+      // Hace un contenedor de categorías
       var dd = document.createElement("dd");
       dd.innerHTML = catText;
       dd.setAttribute("id",catString);
       // Make the button
+      // Crea el botón
       var showButton = document.createElement("button");
       showButton.innerHTML = "highlighting";
       showButton.setAttribute("type","button");
@@ -663,6 +134,7 @@ function ParseElements(data, elmID) {
       var labelledby = " btn-" + catString + " " + catString;
       showButton.setAttribute("aria-labelledby",labelledby);
       // Append these to the <dl>
+      // Concatena estas al <dl>
       dt.appendChild(showButton);
       dl.appendChild(dt);
       dl.appendChild(dd);
@@ -689,13 +161,19 @@ function ParseElements(data, elmID) {
     console.log("ParseElements(): " + e);
   }
 }
-ParseElements(elements, "Elements");
+
+// Obtiene el json e invoca el parsing de los datos que contiene
+fetch("./data/data.json")
+  .then(response => response.json())
+  .then(json => ParseElements(json, "Elements"));
 
 
+// Oscurece la tabla ***Todavía no está implementado****
 function ToggleStyleBlock(strClass, showhide) {
   try {
     if (showhide == "show") {
       // Create a style block
+      // Crea un bloque de estilos
       var styleBlock = document.createElement("style");
       styleBlock.setAttribute("id","ShowCat");
       document.head.appendChild(styleBlock);
@@ -706,7 +184,7 @@ function ToggleStyleBlock(strClass, showhide) {
         "@media screen and (prefers-color-scheme: dark) { #Elements li:not(#Key):not(." + strClass + ") { background-color: #333; opacity: .5; } }",1
       );
       styleBlock.sheet.insertRule(
-        "@media screen and (-ms-high-contrast: active) { #Elements li:not(#Key):not(." + strClass + ") { opacity: .25; } }",2
+        "@media screen and ()) { #Elements li:not(#Key):not(." + strClass + ") { opacity: .25; } }",2
       );
     } else {
       var node = document.getElementById("ShowCat");
@@ -717,10 +195,12 @@ function ToggleStyleBlock(strClass, showhide) {
   }
 }
 
+// Función para abrir el dialogo que muestra el resumen de la materia
 function OpenDialog(eID,elName) {
   try {
     DialogTrigger = eID;
     // Get all the elements to manipulate
+    // Obtiene todos los elementos a manipular
     var body = document.getElementsByTagName("body");
     var landmarks = document.querySelectorAll("header, main, footer");
     var overlay = document.getElementById("Overlay");
@@ -728,26 +208,39 @@ function OpenDialog(eID,elName) {
     var heading = document.getElementById("DialogName");
     var closeBtn = document.getElementById("DialogClose");
     // Set the heading
+    // Establece la cabecera, el nombre de la materia
     heading.innerHTML = elName;
     // Call the function to populate the dialog
-    ParseElementDetail(elements,"ElementDetail",elName);
+    // Llama a la función para poblar el dialogo
+
+    fetch("./data/data.json")
+    .then(response => response.json())
+    .then(json => ParseElementDetail(json, "ElementDetail",elName));
+    //ParseElementDetail(data,"ElementDetail",elName);
+    
     // Hide the content regions from AT
+    // Esconde las regiones de contenido para el AT
     for (var i = 0; i < landmarks.length; i++) {
       landmarks[i].setAttribute("aria-hidden","true");
       landmarks[i].setAttribute("inert","");
     }
     // Hide the content behind the overlay
-    overlay.style.display = "block";
+    // Esconde el contenido detrás del overlay
+    overlay.style.display = "block"; //overlay.style.display = "block";
     // Add click handler to overlay
+    // Agrega un manejador para el overlay
     overlay.setAttribute("onclick","CloseDialog('" + eID + "');");
     // Kill the page scroll
+    // Inhabilita el escroll de la página
     body[0].style.overflow = "hidden";
     // Set the dialog to modal
+    // Hace el dialogo modal
     dialog.setAttribute("aria-modal","true");
     // dialog.setAttribute("data-id",eID);
     dialog.removeAttribute("hidden"); 
     // Put focus on the close button
-    // Normally I would put it on the modal, but this fits
+    // Pone el foco sobre el botón cerrar
+    // Normally I would put it on the modal, but this fits ****Se va a remover
     closeBtn.setAttribute("onclick","CloseDialog('" + eID + "');");
     closeBtn.focus();
   } catch (e) {
@@ -755,164 +248,81 @@ function OpenDialog(eID,elName) {
   }
 }
 
+// Función para cerrar los dialogos
 function CloseDialog(eID) {
   try {
     // Get all the elements to manipulate
+    // Obtiene todos los elementos para manipular
     var body = document.getElementsByTagName("body");
     var landmarks = document.querySelectorAll("header, main, footer");
     var overlay = document.getElementById("Overlay");
     var dialog = document.getElementById("Dialog");
     var triggerBtn = document.getElementById(eID);
     // Make the regions available to AT
+    // Hace las regiones disponibles a los atributos
     for (var i = 0; i < landmarks.length; i++) {
       landmarks[i].removeAttribute("aria-hidden");
       landmarks[i].removeAttribute("inert");
     }
     // Remove the overlay
+    // Remueve el overlay
     overlay.style.display = "none";
     // Return the scrollbar
+    // Recupera el scrollbar
     body[0].style.overflow = "auto";
     // Kill the dialog
+    // Mata el dialogo
     dialog.removeAttribute("aria-modal");
     dialog.removeAttribute("data-id");
     dialog.setAttribute("hidden","");
     // Return focus to trigger
+    // Regresa el foco al trigger
     triggerBtn.focus();
   } catch (e) {
     console.log("CloseDialog(): " + e);
   }
 }
 
+// Función que hace el parsing de los detalles de cada matería, en este caso la descripción
 function ParseElementDetail(data, elmID, elName) {
   try {
     // Get the container that will hold our table
+    // Obtiene el contenedor con el que obtendra nuestra tabla
     var theContainer = document.getElementById(elmID);
     // Clear the placeholder non-JS content
+    // Limpia el marcador de posición de cualquier contenido no-JS
     theContainer.innerHTML = "";
     // Use this if the JSON is coming over the wire
     // var JSONdata = JSON.parse(data);
     var JSONdata = data;
     // Grab the JSON nodes
+    // Obtiene los nodos JSON
     var filteredNodes = JSONdata.elements;
-    // Loop through the elements nodes
+    // Loop through the subject nodes
+    // Hace un recorrido de los nodos de las materias
     for (var a = 0; a < filteredNodes.length; a++) {
       var json = filteredNodes[a];
-      if (json.name == elName) {
-        // Summary
+      if (json.nombre == elName) {
+        // Primer parrafo de la descprición
         var p = document.createElement("p");
-        p.innerHTML = json.summary;
+        p.innerHTML = json.descripcion;
         theContainer.appendChild(p);
         // Create a <dl> to hold categories
         var dl = document.createElement("dl");
-        // Symbol
-        if (json.symbol != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Symbol";
-          var dd = document.createElement("dd");
-          dd.innerHTML = json.symbol;
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Atomic mass
-        if (json.atomic_mass != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Atomic mass";
-          var dd = document.createElement("dd");
-          dd.innerHTML = json.atomic_mass;
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Appearance
-        if (json.appearance != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Appearance";
-          var dd = document.createElement("dd");
-          dd.innerHTML = json.appearance;
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Category
-        if (json.category != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Category";
-          var dd = document.createElement("dd");
-          dd.innerHTML = json.category;
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Density
-        if (json.density != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Density";
-          var dd = document.createElement("dd");
-          dd.innerHTML = json.density + " g/L";
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Boil
-        if (json.boil != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Boiling Point";
-          var dd = document.createElement("dd");
-          dd.innerHTML = Number(json.boil).toLocaleString() + "K";
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Melt
-        if (json.melt != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Melting Point";
-          var dd = document.createElement("dd");
-          dd.innerHTML = Number(json.melt).toLocaleString() + "K";
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Phase
-        if (json.phase != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "At room temperature";
-          var dd = document.createElement("dd");
-          dd.innerHTML = json.phase;
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Molar heat
-        if (json.molar_heat != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Molar heat";
-          var dd = document.createElement("dd");
-          dd.innerHTML = json.molar_heat + " (mol*K)";
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Discovered
-        if (json.discovered_by != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Discovered by";
-          var dd = document.createElement("dd");
-          dd.innerHTML = json.discovered_by;
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        // Named
-        if (json.named_by != undefined) {
-          var dt = document.createElement("dt");
-          dt.innerHTML = "Named by";
-          var dd = document.createElement("dd");
-          dd.innerHTML = json.named_by;
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        }
-        theContainer.appendChild(dl);
-        // Source
-        if (json.source != undefined) {
-          var p = document.createElement("p");
-          var a = document.createElement("a");
-          a.setAttribute("href",json.source);
-          a.innerHTML = "Source";
-          p.appendChild(a);
-          theContainer.appendChild(p);
-        }
+
+        // Segundo parrafo de la descprición
+        var p = document.createElement("p");
+        p.innerHTML = json.descripcion2;
+        theContainer.appendChild(p);
+        // Create a <dl> to hold categories
+        var dl = document.createElement("dl");
+
+        // Tercer parrafo de la descripción
+        var p = document.createElement("p");
+        p.innerHTML = json.descripcion3;
+        theContainer.appendChild(p);
+        // Create a <dl> to hold categories
+        var dl = document.createElement("dl");
       }
     }
   } catch (e) {
@@ -920,6 +330,7 @@ function ParseElementDetail(data, elmID, elName) {
   }
 }
 
+// Gestiona el recorrido de la tabla con el teclado, está obsoleto, se necesita reconstruir
 document.onkeydown = function(evt) {
   evt = evt || window.event;
   var isEscape = false;
@@ -932,3 +343,7 @@ document.onkeydown = function(evt) {
     CloseDialog(DialogTrigger);
   }
 };
+
+
+
+
