@@ -162,16 +162,16 @@
   },
 
   {
-    "nombre" : "Cáclulo Vectorial",
+    "nombre" : "Cálculo Vectorial",
     "horas" : 5,
     "horasAula" : 3,
     "horasLab"  : 2,
     "semestre"  : 3,
     "xpos" : 3,
     "ypos" : 1,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "La asignatura contribuye a desarrollar un pensamiento lógico-matemático al perfil del ingeniero y aporta las herramientas básicas para introducirse al estudio del cálculo vectorial y su aplicación, así como las bases para el modelado matemático. Además proporciona herramientas que permiten modelar fenómenos de contexto.",
+    "descripcion2" : "La importancia del estudio del Cálculo Vectorial radica principalmente en que en diversas aplicaciones de la ingeniería, la concurrencia de variables espaciales y temporales, hace necesario el análisis de fenómenos naturales cuyos modelos utilizan funciones vectoriales o escalares de varias variables. ",
+    "descripcion3" : "Con esta asignatura se espera desarrollar la capacidad de análisis y síntesis en actividades de modelación matemática; adquirir estrategias para resolver problemas; elaborar desarrollos analíticos para la adquisición de un concepto; pensar conceptualmente, desarrollar actitudes para la integración a grupos interdisciplinarios; aplicar los conocimientos adquiridos a la práctica y aprovechar los recursos que la tecnología ofrece, como el uso TIC’s. "
   },
 
 
@@ -183,9 +183,9 @@
     "semestre"  : 3,
     "xpos" : 3,
     "ypos" : 2,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura proporciona al perfil del egresado habilidades para la selección y aplicación de algoritmos y las estructuras de datos en el desarrollo e implementación de programas que permitan la solución de problemas.",
+    "descripcion2" : "La relevancia de la asignatura es que el alumno identifique claramente la forma en cómo se estructuran y organizan los datos internamente, para poder hacerlos más eficientes en cuanto a la administración del tiempo de procesador y el uso de la memoria.",
+    "descripcion3" : "Para cursar esta asignatura se requiere tener habilidades básicas de programación e interpretación de algoritmos y tener el dominio del paradigma orientado a objetos. Además, debe de conocer y manejar los conceptos generales de la lógica matemática, relaciones y la teoría de grafos, por esta razón se encuentra ubicada para ser cursada después de Fundamentos de Programación y de Programación Orientada a Objetos y Matemáticas Discretas, a su vez, esta asignatura es el pilar fundamental en el análisis, diseño y desarrollo de aplicaciones de software de bajo y alto nivel."
   },
 
 
@@ -197,9 +197,9 @@
     "semestre"  : 3,
     "xpos" : 3,
     "ypos" : 3,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del egresado los conocimientos básicos de contabilidad e información financiera como una herramienta para la toma de decisiones; además de ser parte fundamental para las materias afines con temas de emprendedores que serán vistas en cursos posteriores. Se dota al alumno de las habilidades para analizar, distinguir y aplicar los temas relacionados con la Gestión de Proyectos de Software, en términos de estimaciones de tiempo, costos y personal requerido, análisis de riesgo y análisis de la viabilidad del proyecto.",
+    "descripcion2" : "",
+    "descripcion3" : ""
   },
 
   {
@@ -210,9 +210,9 @@
     "semestre"  : 3,
     "xpos" : 3,
     "ypos" : 4,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del egresado la capacidad para analizar, diseñar y gestionar sistemas de bases de datos conforme a los requerimientos del entorno para garantizar la integridad, disponibilidad y confidencialidad de la información, así como para desarrollar e implementar sistemas de información para la gestión de procesos y apoyo en la toma de decisiones, utilizando metodologías basadas en estándares internacionales.",
+    "descripcion2" : "Es importante porque el estudiante adquiere las competencias en el análisis y el diseño de base de datos, que le permitirán desarrollar aplicaciones para sistemas de información robustos que ofrezcan garantía en el manejo de la información. Es conveniente mencionar que hoy en día la información forma parte del capital intangible de las organizaciones y cada vez se demandan sistemas de información que garanticen la integridad y seguridad de la misma.",
+    "descripcion3" : "La asignatura propicia el dominio de modelos de diseño de base de datos basados en reglas de normalización, de integridad y de seguridad."
   },
 
   {
@@ -223,9 +223,9 @@
     "semestre"  : 3,
     "xpos" : 3,
     "ypos" : 5,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales la capacidad para aplicar técnicas y modelos de investigación de operaciones en la solución de problemas, utilizando o desarrollando herramientas de software para la toma de decisiones. ",
+    "descripcion2" : "El conocer y comprender las técnicas para la modelación de sistemas es importante en la formación de la lógica de solución de problemas. Para ello el estudiante de Ingeniería en Sistemas Computacionales, recopila, clasifica y ordena la información del sistema a modelar para analizarlo mediante los modelos adecuados al sistema en estudio, y así obtener la mejor solución o la óptima.",
+    "descripcion3" : "Su integración se ha hecho en base a un análisis de la administración de las operaciones, identificando los temas de programación, optimización y modelos heurísticos que tienen una mayor aplicación en el quehacer profesional y la toma de decisiones. "
   },
 
   {
@@ -236,9 +236,9 @@
     "semestre"  : 3,
     "xpos" : 3,
     "ypos" : 6,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "La Física es una ciencia que proporciona al estudiante una presentación clara y lógica de los conceptos y principios básicos, los cuales permiten entender el comportamiento de fenómenos de la naturaleza, y con ello, fortalecer la comprensión de los diversos conceptos a través de una amplia gama de interesantes aplicaciones al mundo real.",
+    "descripcion2" : "La disposición de éstos objetivos hace hincapié en las situaciones con argumentos físicos sólidos. Al mismo tiempo, se motiva la atención del estudiante a través de ejemplos prácticos para demostrarle las formas de aplicar la Física en otras disciplinas, como circuitos eléctricos, aplicaciones electrónicos, etc.; además, coadyuva en el análisis y razonamiento crítico que debe privar en todo ingeniero para la resolución de problemas que se le presenten durante su quehacer profesional.    ",
+    "descripcion3" : "El ingeniero en Sistemas Computacionales tendrá las herramientas necesarias para poder interactuar con profesionales en otros campos del saber, para que de ésta manera solucione problemas con bases cimentadas en la Física y poder afrontar los retos actuales del desarrollo tecnológico."
   },
 
   {
@@ -249,9 +249,9 @@
     "semestre"  : 4,
     "xpos" : 4,
     "ypos" : 1,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura consolida su formación matemática como ingeniero y potencia su capacidad en el campo de las aplicaciones, aportando al perfil del ingeniero una visión clara sobre el dinamismo de la naturaleza. Además, contribuye al desarrollo de un pensamiento lógico, heurístico y algorítmico al modelar sistemas dinámicos.",
+    "descripcion2" : "El curso de ecuaciones diferenciales es un campo fértil de aplicaciones ya que una ecuación diferencial describe la dinámica de un proceso; el resolverla permite predecir su comportamiento y da la posibilidad de analizar el fenómeno en condiciones distintas. Esta es la asignatura integradora en los temas de matemáticas y pueden diseñarse proyectos integradores con asignaturas que involucren sistemas dinámicos para cada una de las ingenierías. ",
+    "descripcion3" : "La característica más sobresaliente de esta asignatura es que en ella se aplican todos los conocimientos previos de las matemáticas. "
   },
 
   {
@@ -262,9 +262,9 @@
     "semestre"  : 4,
     "xpos" : 4,
     "ypos" : 2,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura apoya en la implementación de aplicaciones computacionales para solucionar problemas de diversos contextos, integrando diferentes tecnologías, plataformas o dispositivos, por medio del desarrollo de software utilizando programación concurrente, acceso a datos, que soporte interfaz gráfica de usuario e incluya programación móvil. ",
+    "descripcion2" : "Para el logro de los objetivos es necesario que el estudiante tenga competencias previas en cuanto a paradigmas de programación, el uso de metodologías para la solución de problemas mediante la construcción de algoritmos utilizando un lenguaje de programación orientada a objetos, el manejo de conceptos básicos de Hardware y Software, construcción de modelos de software empleando diagramas de clases.",
+    "descripcion3" : "Para adquirir la competencia planteada en esta asignatura es necesario que el estudiante haya acreditado la asignatura de Programación Orientada a Objetos y evitar cursarla en semestres muy avanzados tomando en cuenta que en esta asignatura el estudiante desarrollará competencias necesarias para cursos posteriores entre los que se encuentran los talleres de bases de datos y programación web."
   },
 
   {
@@ -275,9 +275,13 @@
     "semestre"  : 4,
     "xpos" : 4,
     "ypos" : 3,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales las siguientes habilidades:",
+    "descripcion2" : " Implementa aplicaciones computacionales para solucionar problemas de diversos contextos, integrando diferentes tecnologías, plataformas o dispositivos",
+    "descripcion3" : " Diseña e implementa interfaces para la automatización de sistemas de hardware y desarrollo del software asociado. ",
+    "descripcion4" : " Coordina y participa en equipos multidisciplinarios para la aplicación de soluciones innovadoras en diferentes contextos.",
+    "descripcion5" : " Desarrolla y administra software para apoyar la productividad y competitividad de las organizaciones cumpliendo con estándares de calidad. ",
+    "descripcion6" : "Es una introducción a la Ingeniería de Software que involucra la comprensión de conceptos, metodologías, técnicas y herramientas para la elaboración del análisis de un proyecto a partir de un modelo de negocios.",
+    "descripcion7" : "Para abordar de manera adecuada los contenidos de esta asignatura son necesarios los conocimientos las asignaturas: Fundamentos de Investigación, Programación Orientada a Objetos, Taller de Administración y Cultura empresarial. Esta materia se relaciona posteriormente con la asignatura de Ingeniería de Software donde se da continuidad a la metodología de la misma"
   },
 
   {
@@ -288,9 +292,11 @@
     "semestre"  : 4,
     "xpos" : 4,
     "ypos" : 4,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales las competencias para implementar bases de datos y apoyar la toma de decisiones, conforme a las normas vigentes de manejo y seguridad de la información, utilizando tecnologías emergentes con el fin de integrar soluciones computacionales con diferentes plataformas y/o dispositivos considerando los aspectos legales, éticos, sociales y de desarrollo sustentable.",
+    "descripcion2" : "Consiste en el uso de lenguaje de definición de datos, lenguaje de manipulación de datos, control de acceso, transacciones, SQL procedural, conectividad de base de datos.",
+    "descripcion3" : "También proporciona las bases para otras asignaturas directamente vinculadas con el desarrollo de software y uso de bases de datos. De manera particular, los temas cubiertos en esta asignatura se aplican en la definición de esquemas de bases de datos relacionales y la manipulación de la información considerando ambientes transaccionales multiusuario.",
+    "descripcion4" : "Para el buen desarrollo de esta asignatura es necesario contar con las competencias desarrolladas en las materias previas de: fundamentos de bases de datos y tópicos avanzados de programación en temas como diseño y modelado, manejo de SQL y aspectos de conectividad entre bases de datos y lenguajes huésped.",
+    "descripcion5" : "Se aportan competencias a las asignaturas de Administración de Bases de Datos, Ingeniería de Software, Gestión de Proyectos de Software y Programación Web, que se cursarán posteriormente"
   },
 
   {
@@ -301,9 +307,9 @@
     "semestre"  : 4,
     "xpos" : 4,
     "ypos" : 5,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "La asignatura de Simulación aporta al perfil del Ingeniero en Sistemas Computacionales la habilidad de establecer modelos de simulación que le permitan analizar el comportamiento de un sistema real, así como la capacidad de seleccionar y aplicar herramientas matemáticas para el modelado, diseño y desarrollo de tecnología computacional.",
+    "descripcion2" : "La importancia de esta materia para un Ingeniero en Sistemas Computacionales es la de aplicar los conocimientos adquiridos para plantear modelos matemáticos a sistemas reales complejos lineales para la toma de decisiones y la solución a estos, empleando herramientas matemáticas y computacionales, dado que las tendencias actuales exigen realizar la simulación en áreas como la ciencia, la industria y los negocios. ",
+    "descripcion3" : "Esta asignatura agrupa los conocimientos necesarios para modelar y simular sistemas discretos y lineales, abarcando desde la generación de números aleatorios y métodos para la generación de variables aleatorias, hasta la construcción de modelos de simulación. Simulación, es una asignatura que requiere la aplicación de métodos de probabilidad y la habilidad de realizar pruebas estadísticas, así como resolver modelos de Investigación de Operaciones como sistemas de inventarios y de líneas de espera, incluyendo la competencia de programar en un lenguaje de alto nivel."
   },
 
   {
@@ -314,9 +320,9 @@
     "semestre"  : 4,
     "xpos" : 4,
     "ypos" : 6,
-    "descripcion" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-    "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+    "descripcion" : "Principios Eléctricos y Aplicaciones Digitales, es una asignatura que aporta al perfil del Ingeniero en Sistemas Computacionales conocimientos y habilidades básicas para identificar y comprender las tecnologías de hardware, aplicando teorías para la solución de problemas que engloben escenarios de circuitos digitales. ",
+    "descripcion2" : "Para integrarla se ha hecho un análisis de las asignaturas de Física General, identificando los temas de Electrodinámica, Electrostática, y Matemáticas Discretas, identificando los temas de Lógica Matemática y Algebra Booleana, aportando herramientas en el quehacer profesional del Ingeniero en Sistemas Computacionales.",
+    "descripcion3" : "Puesto que esta asignatura dará soporte a otras más, como lo son, Arquitectura de Computadoras, Lenguajes de Interfaz, Sistemas Programables, Fundamentos de Telecomunicaciones, se inserta en la primera mitad de la trayectoria escolar, antes de cursar aquellas a las que dará soporte. De manera particular, lo trabajado en esta asignatura se aplicará a temas tales como: Programación de Microcontroladores, Programación de Interfaces hombre-máquina y en la selección de componentes para el ensamble de equipos de cómputo."
   },
 
 

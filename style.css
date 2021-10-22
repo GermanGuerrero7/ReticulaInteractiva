@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+label{
+  width: 250px;
+  display:inline-block;
+}
+
 .grid-container > * {
   /*box-shadow: -1px 1px 7px 0px rgba(0,0,0,.75);*/
   border-radius: 4px;
