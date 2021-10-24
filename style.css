@@ -1,74 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.grid-container > * {
-  box-shadow: -1px 1px 7px 0px rgba(0,0,0,.75);
-  border-radius: 4px;
-  padding: 10px;
-}
-
-.header {
-  grid-area: header;
-}
-
-.navbar {
-  grid-area: navbar;
-}
-
-.Tabla {
-  grid-area: Tabla;
-}
-
-.sidebar {
-  grid-area: sidebar;
-}
-
-.footer {
-  grid-area: footer;
-}
-
-.grid-container {
-  display: grid;
-  gap: 5px;
-  grid-template: 
-    "header" 80px
-    "sidebar" 100px
-    "navbar" 100px
-    "Tabla" auto
-    "footer" 120px;
-}
-
-/* VISTA DE MOVIL*/
-@media (min-width: 600px){
-  .grid-container {
-    grid-template: 
-    "header" 80px
-    "sidebar" 100px
-    "navbar" 100px
-    "Tabla" auto
-    "footer" 120px; 
-  }
-}
-
-/* VISTA DE ESCRITORIO*/
-@media (min-width: 900px){
-  .grid-container {
-    grid-template: 
-    "header header header"   80px
-    "sidebar Tabla  navbar"  auto
-    "footer footer footer" 120px /
-    200px   auto   200px  ; 
-  }
-}
-
-
-html{
-  height: 100%;
-}
-
 body {
     font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto,
       Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -76,7 +5,6 @@ body {
     background: #fefefe;
     color: #333;
     margin: 0;
-    min-height: 100%;
   }
 
   
@@ -311,7 +239,7 @@ body {
     }
   }
   
-  @media all and (min-width: 400px) {
+  @media all and (min-width: 40em) {
     #Elements ol {
       font-size: 1.18vw;
       display: grid;
@@ -413,7 +341,7 @@ body {
     }
    
   }
-  @media all and (min-width: 400px) and (max-width: 600px) {
+  @media all and (min-width: 40em) and (max-width: 60em) {
     #Elements li.row1:hover {
       transform-origin: left;
     }
@@ -429,16 +357,14 @@ body {
     }
   }
   
-  /*--------------------------------------------- VISTA DEL RECUADRO CENTRAL -------------------------------------------------------------------------*/ 
-  @media all and (min-width: 900px) {
-      /* TAMAÑO ESCRITORIO */
+  @media all and (min-width: 60em) {  /* Tamaño página web */
     #Elements ol {
       font-size: .67vw;
       display: -ms-grid;
       display: grid;
       /*grid-template-columns: 8em 8em 8em 8em 8em 8em 8em 8em 8em;*/ /*Determina el numero de columnas, otro 8em y se genera otra columa*/
-      column-gap: 0.5em; /*Espacio entre columnas*/
-      row-gap: 1.0em;    /*Espacio entre filas*/
+      column-gap: 3em; /*Espacio entre columnas*/
+      row-gap: 3em;    /*Espacio entre filas*/
       /*margin-left: 35em; /*Temporal para centrar la tabla*/
       /*margin: 0vw 5vw;*/
       justify-content: center; /*Centra la tabla*/
@@ -577,7 +503,7 @@ body {
       transform-origin: right;
     }
   }
-
+  
   /* Dialog */
   
   #Overlay {
@@ -680,7 +606,7 @@ body {
       color: #fff;
     }
     #Elements ol {
-      color: #ffffff; /*Color de texto elementos dentro del grid */
+      color: #fff; /*Color de texto elementos dentro del grid */
     }
     #Elements li, #Key dt {
       outline-color: #fff;
