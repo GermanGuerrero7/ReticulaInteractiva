@@ -4,78 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reticula Interactiva</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bower_components/normalize.css/normalize.css">
+    
+
 </head>
-<<<<<<< HEAD
-<body>
-  
-<header>
-    <img src="/img/Icono.png" alt="Logo" class="logo">
-</header>
-  
-  <div id="Tabla"> 
-  <main>
-    <div id="Elements">
-      <p>
-        
-      </p>
-    </div>
-  </main>
-=======
 
 
 <!-- ***  CUERPO DEL DOCUMENTO  *** -->
-<body class = "grid-container">
+<body>
 
   <!-- ***  HEADER *** -->
   <header class="header">
 
       <img src="/img/Icono.png" alt="Logo" class="logo">
+      
   </header>
+
+  <div class = "grid-container">
  
   <!-- *** NAVBAR *** -->
-  <nav class="navbar">
-    <div id = "navbar">
-      <form>
-      
-        <label style="color: black;" for="credob">Créditos obtenidos:</label>
-        <input id="credob" type="text" name="credob"><br>
-  
-        <label style="color: black;" for="credsel">Créditos Seleccionados:</label>
-        <input id="credsel" type="text" name="credsel"><br>
-  
-        <label style="color: black;" for="credcur">Créditos Cursados por Especialidad:</label>
-        <input id="credcur" type="text" name="credcur"><br>
-  
-        <label style="color: black;" for="credres">Créditos Restantes por Especialidad:</label>
-        <input id="credres" type="text" name="credres"><br>
-  
-      </form>
-    </div>
-    
-    
-  </nav>
+
 
   <!-- *** SIDEBAR *** -->
   <aside class="sidebar">
     
       <div id = "sidebar">
-        <form>
-          <label style="color: black;" for="nombre">Nombre:</label>
-          <input id="nombre" type="text" name="name"><br>
-    
-          <label style="color: black;" for="noctrl">No. Control:</label>
-          <input id="noctrl" type="text" name="noctrl"><br>
-    
-          <label style="color: black;" for="semestre">Semestre:</label>
-          <input id="semestre" type="text" name="semestre"><br>
-    
-          <label style="color: black;" for="especialidad">Especialidad:</label>
-          <input id="especialidad" type="text" name="especialidad"><br>
-    
-        </form>
+        <h5 class="etiquetas">Nombre:</h5>
+        <p class="datos-usuario">German Guerrero Martinez</p>
+
+        <h5 class="etiquetas">Carrera:</h5>
+        <p class="datos-usuario">Ingenieria en sistemas computacionales</p>
+
+        <h5 class="etiquetas">Semestre:</h5>
+        <p class="datos-usuario">8</p>
+
+        <h5 class="etiquetas">Especialidad:</h5>
+        <p class="datos-usuario">Desarrollo web</p>
+
+        <h5 class="etiquetas">Creditos obtenidos:</h5>
+        <p class="datos-usuario">230</p>
+
+        <h5 class="etiquetas">Creditos seleccionados:</h5>
+        <p class="datos-usuario">5</p>
+
+        <h5 class="etiquetas">Creditos cursados especialidad:</h5>
+        <p class="datos-usuario">10</p>
+
+        <h5 class="etiquetas">Creditos restantes especialidad:</h5>
+        <p class="datos-usuario">11</p>
+
+
       </div>
+      
     
   </aside>
 
@@ -84,18 +66,16 @@
     <main>
       <div id="Elements">
         <p>
-          The JSON is good, but my parsing script is broken.
+          
         </p>
       </div>
     </main>
->>>>>>> 731b227dd01dc1a2b5483f351c5b2c5056bbb0d2
   </div>
-  <footer>
-    <p>
-    
-    </p>
-  </footer>
-  
+</div>
+  <!-- *** FOOTER *** -->
+  <footer class="footer"></footer>
+
+  <!-- *** DIALOG *** -->
   <div id="Dialog" aria-labelledby="DialogName" role="dialog" tabindex="-1" hidden>
     <div role="document" > <!-- For VO bug -->
       <h2 id="DialogName">Element Detail</h2>
@@ -107,7 +87,10 @@
     </div>
   </div>
   
-  <div id="Overlay"></div>
+  <!-- *** OVERLAY *** -->
+  <div id="Overlay">
+
+  </div>
 </body>
 
 <script  src="./reticulainteractiva.js"></script>
