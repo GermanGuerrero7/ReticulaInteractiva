@@ -1,3 +1,82 @@
+<<<<<<< HEAD
+=======
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+label{
+  width: 250px;
+  display:inline-block;
+}
+
+.grid-container > * {
+  /*box-shadow: -1px 1px 7px 0px rgba(0,0,0,.75);*/
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.navbar {
+  grid-area: navbar;
+}
+
+.Tabla {
+  grid-area: Tabla;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  gap: 5px;
+  grid-template: 
+    "header" 80px
+    "sidebar" 100px
+    "navbar" 100px
+    "Tabla" auto
+    "footer" 120px;
+}
+
+/* VISTA DE MOVIL*/
+@media (min-width: 600px){
+  .grid-container {
+    grid-template: 
+    "header" 80px
+    "sidebar" 100px
+    "navbar" 100px
+    "Tabla" auto
+    "footer" 120px; 
+  }
+}
+
+/* VISTA DE ESCRITORIO*/
+@media (min-width: 900px){
+  .grid-container {
+    grid-template: 
+    "header header header"   80px
+    "sidebar Tabla  navbar"  auto
+    "footer footer footer" 120px /
+    200px   auto   200px  ; 
+  }
+}
+
+
+html{
+  height: 100%;
+}
+
+>>>>>>> 731b227dd01dc1a2b5483f351c5b2c5056bbb0d2
 body {
     font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto,
       Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
