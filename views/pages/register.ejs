@@ -10,14 +10,21 @@
 </head>
 <body>
     <%- include('../partials/header') %>
-
+    <%- include ('../partials/messages') %>
     <main>
-		<form action="" class="formulario" id="formulario">
+		<form action="/register" class="formulario" id="formulario" method="POST">
 			<!-- Grupo: Usuario -->
-			<div class="formulario__grupo" id="grupo__usuario">
-				<label for="usuario" class="formulario__label">No. Control</label>
+			<div class="formulario__grupo" id="grupo__username">
+				<label for="username" class="formulario__label">No. Control</label>
 				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="19130343">
+					<input 
+                    type="userid" 
+                    class="formulario__input" 
+                    name="userid" id="username" 
+                    placeholder="Ej. 19130343"
+                    value="<%= typeof userid != 'undefined' ? userid : '' %>"
+                    >
+                    
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">El numero de control solo puede contener numeros y el maximo son 8 dígitos.</p>
@@ -27,7 +34,14 @@
 			<div class="formulario__grupo" id="grupo__nombre">
 				<label for="nombre" class="formulario__label">Nombre y Apellido</label>
 				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Juan Pérez">
+					<input 
+                    type="nombre" 
+                    class="formulario__input" 
+                    name="nombre" id="nombre" 
+                    placeholder="Ej. Juan Pérez"
+                    value="<%= typeof nombre != 'undefined' ? nombre : '' %>"
+                    >
+                    
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
@@ -37,7 +51,13 @@
 			<div class="formulario__grupo" id="grupo__password">
 				<label for="password" class="formulario__label">Contraseña</label>
 				<div class="formulario__grupo-input">
-					<input type="password" class="formulario__input" name="password" id="password">
+					<input 
+                    type="password" 
+                    class="formulario__input" 
+                    name="password" 
+                    id="password"
+                    value="<%= typeof password != 'undefined' ? password : '' %>"
+                    >
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
@@ -47,17 +67,28 @@
 			<div class="formulario__grupo" id="grupo__password2">
 				<label for="password2" class="formulario__label">Repetir Contraseña</label>
 				<div class="formulario__grupo-input">
-					<input type="password" class="formulario__input" name="password2" id="password2">
+					<input 
+                    type="password" 
+                    class="formulario__input" 
+                    name="password2" id="password2"
+                    value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+                    >
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
 			</div>
 
 			<!-- Grupo: Correo Electronico -->
-			<div class="formulario__grupo" id="grupo__correo">
-				<label for="correo" class="formulario__label">Correo Electrónico</label>
+			<div class="formulario__grupo" id="grupo__email">
+				<label for="email" class="formulario__label">Correo Electrónico</label>
 				<div class="formulario__grupo-input">
-					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+					<input 
+                    type="email" 
+                    class="formulario__input" 
+                    name="email" id="email" 
+                    placeholder="Ej. correo@correo.com"
+                    value="<%= typeof email != 'undefined' ? email : '' %>"
+                    >
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
@@ -67,18 +98,28 @@
 			<div class="formulario__grupo" id="grupo__carrera">
 				<label for="carrera" class="formulario__label">Carrera</label>
 				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="carrera" id="carrera" placeholder="Ingenieria en sistemas computacionales">
+					<input 
+                    type="carrera" class="formulario__input" 
+                    name="carrera" id="carrera" 
+                    placeholder="Ej. Ingenieria en sistemas computacionales"
+                    value="<%= typeof carrera != 'undefined' ? carrera : '' %>"
+                    >
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
-				<p class="formulario__input-error">Ingrese un nombre de carrera valido.</p>
+				<p class="formulario__input-error">Ingrese un nombre de carrera válido.</p>
 			</div>
 
 
             <!-- Grupo: Semestre -->
 			<div class="formulario__grupo" id="grupo__semestre">
-				<label for="carrera" class="formulario__label">Semestre</label>
+				<label for="semestre" class="formulario__label">Semestre</label>
 				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="semestre" id="semestre" placeholder="5 (Opcional)">
+					<input 
+                    type="semestre" class="formulario__input" 
+                    name="semestre" id="semestre" 
+                    placeholder="Ej. 5 (Opcional)"
+                    value="<%= typeof semestre != 'undefined' ? semestre : '' %>"
+                    >
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">Ingrese por favor únicamente un número entre el 1 al 15.</p>
@@ -86,9 +127,14 @@
 
             <!-- Grupo: Especialidad -->
 			<div class="formulario__grupo" id="grupo__especialidad">
-				<label for="carrera" class="formulario__label">Especialidad</label>
+				<label for="especialidad" class="formulario__label">Especialidad</label>
 				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="especialidad" id="especialidad" placeholder="Web y Moviles">
+					<input 
+                    type="especialidad" class="formulario__input" 
+                    name="especialidad" id="especialidad" 
+                    placeholder="Ej. Web y Moviles"
+                    value="<%= typeof especialidad != 'undefined' ? especialidad : '' %>"
+                    >
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">.</p>
@@ -112,6 +158,10 @@
 				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario hecho correctamente</p>
 			</div>
 		</form>
+
+        <div class="formulario__mensaje" id="formulario__mensaje">
+            <p >¿Tienes una cuenta? <a href="/users/login">Login</a></p>
+        </div>
 	</main>
 	<%- include('../partials/footer') %>
 	

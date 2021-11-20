@@ -2,25 +2,35 @@ const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
 
 const expresiones = {
-	usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
+	userid: /^((N)[0-9]{9})|(C)[0-9]{9}|[0-9]{9}|((N)[0-9]{8}|([0-9]{8}))/, // 8 numeros y numeros de control que tengan C o N.
 	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-	password: /^.{4,12}$/, // 4 a 12 digitos.
-	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-	numcontrol: /^((N)[0-9]{9})|(C)[0-9]{9}|[0-9]{9}|((N)[0-9]{8}|([0-9]{8}))/ // 8 numeros y numeros de control que tengan C o N.
+	password: /^.{4,12}$/, // 4 a 12 digitos. 
+	email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
+
+	///^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,}$/
+	//Cambiar la validacion del password en produccion a:
+	
+    // at least 8 characters
+    // at least 1 numeric character
+    // at least 1 lowercase letter
+    // at least 1 uppercase letter
+    // at least 1 special character
+
+	
 }
 
 const campos = {
-	usuario: false,
+	userid: false,
 	nombre: false,
 	password: false,
-	correo: false,
-	numcontrol: false
+	email: false,
+
 }
 
 const validarFormulario = (e) => {
 	switch (e.target.name) {
-		case "usuario":
-			validarCampo(expresiones.usuario, e.target, 'usuario');
+		case "userid":
+			validarCampo(expresiones.userid, e.target, 'userid');
 		break;
 		case "nombre":
 			validarCampo(expresiones.nombre, e.target, 'nombre');
@@ -32,12 +42,10 @@ const validarFormulario = (e) => {
 		case "password2":
 			validarPassword2();
 		break;
-		case "correo":
-			validarCampo(expresiones.correo, e.target, 'correo');
+		case "email":
+			validarCampo(expresiones.email, e.target, 'email');
 		break;
-		case "numcontrol":
-			validarCampo(expresiones.numcontrol, e.target, 'numcontrol');
-		break;
+		
 	}
 }
 
@@ -86,11 +94,9 @@ inputs.forEach((input) => {
 });
 
 formulario.addEventListener('submit', (e) => {
-	e.preventDefault();
 
 	const terminos = document.getElementById('terminos');
-	if(campos.usuario && campos.nombre && campos.password && campos.correo && campos.numcontrol && terminos.checked ){
-		formulario.reset();
+	if(campos.userid && campos.nombre && campos.password && campos.email && terminos.checked ){
 
 		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
 		setTimeout(() => {

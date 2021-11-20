@@ -16,8 +16,8 @@
 <body>
 
    <%- include('../partials/header') %>
-
-
+   
+   
   <div class = "grid-container">
  
   <!-- *** NAVBAR *** -->
@@ -29,19 +29,23 @@
       <div id = "sidebar">
 
         <h5 class="etiquetas">Número de control:</h5>
-        <p class="datos-usuario">18130583</p>
-
+        <!-- <p class="datos-usuario">18130583</p> -->
+        <p> <%= user.userid %></p>
         <h5 class="etiquetas">Nombre:</h5>
-        <p class="datos-usuario"><%= (typeof name != "undefined" ? name : "")%> </p>
-
+        
+        <p> <%= user.nombre %></p>
+        
         <h5 class="etiquetas">Carrera:</h5>
-        <p class="datos-usuario">Ingenieria en sistemas computacionales</p>
+        <!-- <p class="datos-usuario">Ingenieria en sistemas computacionales</p> -->
+        <p> <%= user.carrera %></p>
 
         <h5 class="etiquetas">Semestre:</h5>
-        <p class="datos-usuario">8</p>
+        <!-- <p class="datos-usuario">8</p> -->
+        <p> <%= user.semestre %></p>
 
         <h5 class="etiquetas">Especialidad:</h5>
-        <p class="datos-usuario">Desarrollo web</p>
+        <!-- <p class="datos-usuario">Desarrollo web</p> -->
+        <p> <%= user.especialidad %></p>
 
         <h5 class="etiquetas">Creditos obtenidos:</h5>
         <p class="datos-usuario">230</p>

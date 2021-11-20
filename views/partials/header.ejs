@@ -15,7 +15,38 @@
         <a href="../register">
         <button type="submit"  id="buttonRegistro">Registrarse</button>
         </a>
-
+        <a href="../logout">
+            <button type="submit"  id="buttonCerrar">Cerrar Sesión</button>
+        </a>
+        
     </div>
+
+   
     
 </header>
+
+<script>
+   document.getElementById("buttonCerrar").style.visibility ="hidden";
+   
+
+
+    <% if (locals.user) { %>
+
+        const user = <%- JSON.stringify(user); %>
+        document.getElementById("buttonRegistro").remove()
+        console.log(user);
+        document.getElementById("buttonCerrar").style.visibility ="visible";
+        document.getElementById("buttonSesion").style.visibility ="hidden";
+
+<% } %>
+  
+
+
+    
+    
+</script>
+
+ 
+
+
+

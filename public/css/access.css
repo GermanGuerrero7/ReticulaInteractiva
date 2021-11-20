@@ -256,6 +256,12 @@ header{
     display: none;
     background-color: #9f9d90;
   }
+  
+  #buttonCerrar{
+    display: none;
+    background-color: #9f9d90;
+  }
+
 
 
   /* CONTENIDO DEL FOOTER */
