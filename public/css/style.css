@@ -581,6 +581,8 @@ body {
     }
   
       footer{
+        position: absolute;
+        width: 100%;
         color: #52514a;
         font-family: sans-serif;
         font-size: small;
