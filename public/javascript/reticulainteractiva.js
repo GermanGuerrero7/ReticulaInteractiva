@@ -10,6 +10,10 @@ function(){c=0});document.body.addEventListener("focus",function(a){var b=a.targ
 // Global variable for the dialog close
 // Variable global para el cierre del dialogo
 var DialogTrigger;
+var suma = 0;
+var nombre = "";
+var sumaCred = 0;
+var cuadros = []; 
 
 function ParseElements(data, elmID) {
   try {
@@ -37,11 +41,14 @@ function ParseElements(data, elmID) {
     // Arreglo de categorias en blanco
     var catLookup = {};
     var catArray = [];
+    var hrsArray = []
     // Loop through the elements nodes
     // Un ciclo para recorrer los nodos de las materias
     for (var a = 0; a < filteredNodes.length; a++) {
       var json = filteredNodes[a];
       //console.log(filteredNodes[a])
+      hrsArray[a] = json.horas;
+      //console.log(json.horas);
       // Create the <li>, give it an id and row/col info
       // Crea el <li>, y le da un id e información de fila/columna
       var elementNode = document.createElement("li");
@@ -102,6 +109,8 @@ function ParseElements(data, elmID) {
         // console.log(rawCat);
       }
     }
+
+    //console.log(hrsArray);
     // Create a <dl> to hold categories
     // Crea un <dl> que contiene laas categorias
     var dl = document.createElement("dl");
@@ -157,9 +166,24 @@ function ParseElements(data, elmID) {
     /*Todo lo anterior crea la iluminación de la busqueda por categorías
     pero es necesario sacarlo de la tabla para que no se desborde
     ***queda pendiente***/
+
+    // Obtiene una collecion de elementos html de tipo li 
+    // la cual contiene los recuadros 
+    var cuadros = Array.from(document.getElementsByTagName("li"));
+    
+    // Recorre el arreglo con los elementos y los pone a la escucha del evento onclick
+    // posteriormente se llama al la funcion changeColor
+    for(var a = 0; cuadros.length; a++){
+      cuadros[a].onclick = changeColor;
+      //console.log(hrsArray[a]);
+    } 
   } catch (e) {
     console.log("ParseElements(): " + e);
   }
+
+  //document.getElementsByClassName("row2 col1 cat-1")[0].onclick = changeColor;
+  //document.getElementById("li")[0].onclick = changeColor;
+
 }
 
 // Obtiene el json e invoca el parsing de los datos que contiene
@@ -193,6 +217,7 @@ function ToggleStyleBlock(strClass, showhide) {
   } catch (e) {
     console.log("ToggleStyleBlock(): " + e);
   }
+  //document.getElementsByClassName("row2")[0].onclick = changeColor;
 }
 
 // Función para abrir el dialogo que muestra el resumen de la materia
@@ -246,6 +271,8 @@ function OpenDialog(eID,elName) {
   } catch (e) {
     console.log("OpenDialog(): " + e);
   }
+
+  
 }
 
 // Función para cerrar los dialogos
@@ -328,6 +355,8 @@ function ParseElementDetail(data, elmID, elName) {
   } catch (e) {
     console.log("ParseElementDetail(): " + e);
   }
+
+  
 }
 
 // Gestiona el recorrido de la tabla con el teclado, está obsoleto, se necesita reconstruir
@@ -343,6 +372,58 @@ document.onkeydown = function(evt) {
     CloseDialog(DialogTrigger);
   }
 };
+
+
+//document.getElementsByClassName("row2 col1 cat-1")[0].onclick = changeColor;
+
+
+// Funcion que cambia el color de los elementos al hacer click
+// Tambien hace la suma de los creditos
+
+function changeColor(){
+  
+
+  
+  this.style.backgroundColor = "#52514a";
+  //console.log(this.children[2].innerText.slice(-1));
+  //console.log(this);
+
+  // Valida que no se haya hecho click anteriormente sobre este elemento
+  // *Hace falta mejorarlo para validar todos los seleccionados*
+  if(!(nombre === this.id)){
+
+    // Bloque para seleccion de elementos de especialidad
+    if(this.id === "Desarrollo web pila completa I" || this.id === "Prog. de dispositivos móviles en Android" || 
+    this.id === "Desarrollo web pila II" || this.id === "Prog. de dispositivos móviles IOS" || this.id === "Desarrollo de hab. prof. en inf."){
+      sumaCred += parseInt(this.children[2].innerText.slice(-1))
+      document.getElementById("especialidad-cred").innerHTML = sumaCred.toString();
+    }
+
+    document.getElementById("especialidad-rest").innerHTML = (25 - sumaCred).toString();
+
+  // Extrae el numero de horas de cada elemento y lo suma a la variable
+  suma += parseInt(this.children[2].innerText.slice(-1));
+  //console.log(suma);
+  // Muestra la suma de creditos
+  document.getElementById("credsel").innerHTML = suma.toString();
+
+  // Bloque para validar las alarmas
+  if(suma > (260*.7)){
+    document.getElementById("alarma-servicio").innerHTML = "¡Ya puedes tomar el servicio social!";
+  }if(suma > 280*.8){
+    document.getElementById("alarma-residencia").innerHTML = "¡Felicidades! Ya puedes tomar tu residencia";
+  }
+// Almacena en la variable global el ultimo elemento en ser agregado
+  nombre = this.id;
+  //console.log(nombre + "despues")
+  
+}
+     
+  return false;
+}
+
+
+
 
 
 

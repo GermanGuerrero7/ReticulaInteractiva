@@ -527,9 +527,9 @@
       "semestre"  : 6,
       "xpos" : 6,
       "ypos" : 7,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "Taller de investigación II se ubica en el séptimo semestre, después de que el estudiante ha  delineado los aspectos generales del protocolo durante el Taller de investigación I, por lo que  el propósito de ésta asignatura es enriquecerlo, consolidarlo y transformarlo en proyecto de  investigación aplicada, como proyecto de creatividad, de desarrollo empresarial (creación de  empresas, nuevos productos), innovación y desarrollo tecnológico (generación de nuevas  tecnologías), diseño, construcción de equipo, prototipos, residencia profesional o prestación de  servicios profesionales.",
+      "descripcion2" : "En esta asignatura el estudiante desarrolla el marco teórico (marco conceptual, histórico, legal,  contextual), y profundiza en la metodología (identificación de variables, diseño y validación  de instrumentos) considerando que ya ha cursado asignaturas de su especialidad que le  permitirán ubicar su propuesta en el contexto profesional. Además en esta materia el alumno  desarrolla la metodología propuesta, para su revisión y la entrega de los productos de  investigación.",
+      "descripcion3" : "Parte importante de la formación del profesionista es la habilidad para exponer y defender con  argumentos sólidos y consistentes su proyecto, por esta razón la defensa deberá hacerse ante  un sínodo integrado por el profesor de la asignatura, el asesor y un oponente, con la posible  presencia de otros estudiantes."
     },
   
   
@@ -541,9 +541,9 @@
       "semestre"  : 7,
       "xpos" : 7,
       "ypos" : 1,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "En ésta asignatura se debe desarrollar el análisis semántico, la generación de código, la optimización  y la generación del código objeto para obtener el funcionamiento de un compilador.",
+      "descripcion2" :"También se busca proveer al estudiante de herramientas, conocimientos y habilidades necesarias para  desarrollar un compilador con base en los conocimientos previos de la asignatura Lenguajes y  Autómatas I. La aportación de ésta asignatura es relevante en el ámbito del desarrollo de software de  sistemas.",
+      "descripcion3" : "Es indispensable distinguir que la carrera de Ingeniería en Sistemas Computacionales se basa, no sólo  en el desarrollo de software comercial y administrativo, sino también en el desarrollo de software  científico y para el desarrollo tecnológico. Ésta asignatura se ubica en la segunda categoría y es  indispensable desarrollar software en estos campos para preparar a los egresados y tengan la  posibilidad de cursar posgrados de alto nivel."
     },
     
     {
@@ -554,9 +554,9 @@
       "semestre"  : 7,
       "xpos" : 7,
       "ypos" : 2,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "La asignatura de Gestión de proyectos de software, proporciona al estudiante los conceptos que  requiere y que debe contemplar para la gestión de un proyecto de software. Por otro lado, le da la  posibilidad de poner en práctica dicha gestión, ya que se sugiere que en esta asignatura, el estudiante  desarrolle un proyecto de gestión de software para una organización, adquiriendo las competencias  necesarias para estar al frente de dichos proyectos. ",
+      "descripcion2" : "La intención es que los estudiantes gestionen un proyecto de software de carácter multidisciplinario, a  fin de trabajar las competencias genéricas que exige su formación profesional. ",
+      "descripcion3" : "La asignatura de gestión de proyectos se relaciona con asignaturas previas como Taller de  administración, Ingeniería de software, Taller y Administración de bases de datos; y es la base para  asignaturas de octavo semestre en adelante."
     },
   
     {
@@ -567,22 +567,22 @@
       "semestre"  : 7,
       "xpos" : 7,
       "ypos" : 3,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "La asignatura de Programación Lógica y Funcional aporta al perfil del Ingeniero en Sistemas  Computacionales la capacidad de desarrollar habilidades para la generación de soluciones  automatizadas basadas en lenguajes de inteligencia artificial, considerando el entorno y la aplicación  de diversas técnicas, herramientas y conocimientos. ",
+      "descripcion2" : "Los programas para computadora actualmente son fundamentales en muchas áreas del ser humano,  debido a que se usan para resolver diversos problemas en la ciencia, la industria y los negocios. Para  cubrir estas necesidades, se han desarrollado lenguajes de programación dentro de la inteligencia  artificial. El Ingeniero en Sistemas Computacionales contribuirá, aplicando estos conocimientos para  la solución de problemas a través de la programación lógica y funcional, con una conciencia ética y de  respeto al medio ambiente.",
+      "descripcion3" : "La Programación Lógica y Funcional, es una asignatura que requiere tener conocimientos esenciales  acerca de lenguajes de programación estructurados y orientados a objetos así como el conocimiento  de las asignaturas de Lenguajes y Autómatas 1 y 2. "
     },
   
     {
       "nombre" : "Desarrollo web pila completa I",
-      "horas" : 5,
+      "horas" : 6,
       "horasAula" : 2,
-      "horasLab"  : 3,
+      "horasLab"  : 4,
       "semestre"  : 7,
       "xpos" : 7,
       "ypos" : 4,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "Esta asignatura aporta al perfil del egresado la capacidad para desarrollar e  implementar sistemas de información en ambiente web para la automatización de  procesos y toma de decisiones utilizando metodologías basadas en  estándares internacionales y tecnologías emergentes, introduciéndonos a las  aplicaciones web, los conceptos del lenguaje de marcas, al lenguaje de  presentación de datos, al desarrollo e implementación de servicios web. ",
+      "descripcion2" : "",
+      "descripcion3" : ""
     },
   
     {
@@ -593,22 +593,22 @@
       "semestre"  : 7,
       "xpos" : 7,
       "ypos" : 5,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "Desarrolla las capacidades básicas para el diseño e implementación de soluciones en redes de datos  LAN y WAN en base a las normas y estándares vigentes.",
+      "descripcion2" : "La importancia de esta asignatura radica en la necesidad que tienen las empresas de optimizar sus  procesos con el adecuado aprovechamiento de las tecnologías de la información, redes de datos, así  como la infraestructura que soporta dichas tecnologías. ",
+      "descripcion3" : "Se ubica en el séptimo semestre, es subsecuente a la asignatura de Redes de Computadoras y desarrolla  las competencias necesarias para cursar la asignatura Administración de Redes"
     },
     
     {
       "nombre" : "Prog. de dispositivos móviles en Android",
-      "horas" : 4,
+      "horas" : 5,
       "horasAula" : 2,
-      "horasLab"  : 2,
+      "horasLab"  : 3,
       "semestre"  : 7,
       "xpos" : 7,
       "ypos" : 6,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "Actualmente, gran parte de la innovación se sitúa en el desarrollo de software y, una parte importante lo constituyen las aplicaciones móviles, desarrolladas específicamente para la plataforma Android, sistema operativo basado en Linux. Además, la disminución del costo de la tecnología digital, la expansión de las telecomunicaciones inalámbricas, la mayor cobertura de la banda ancha y el aumento de las capacidades de los dispositivos móviles han hecho atractivo para la industria del desarrollo de software, y en especial para los desarrolladores independientes, crear aplicaciones para este mercado.",
+      "descripcion2" : "La materia deProgramación de Dispositivos Móviles en Android, aporta al perfil  del egresado la capacidad de desarrollar aplicaciones de software utilizando  diferentes entornos de programación que cuentan con soporte para ser  ejecutados en el sistema operativo Android, buscando promover y fomentar entre  los estudiantes el que incursionen con productos propios en un mercado en  constante crecimiento y así aprovechar las oportunidades de auto-empleo que éste ofrece. ",
+      "descripcion3" : "Para integrarla en la retícula se ha hecho un análisis de diferentes entornos de desarrollo de software principalmente basados en el lenguaje C/C++ y Java, dada la presencia que éstos tienen en el mercado, y también buscando que puedan ser ejecutados en los principales sistemas operativos (Linux, Mac OS X® y Windows), optando por su importancia en el mercado por: Eclipse y Android Studio."
     },
   
     {
@@ -619,9 +619,9 @@
       "semestre"  : 7,
       "xpos" : 7,
       "ypos" : 7,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "La materia de Fundamentos de Seguridad aportará al perfil del egresado crear un  profesional con aptitud para aplicar y promover metodologías actualizadas que  conduzcan a la práctica de una cultura de seguridad informática; capaz de  discernir entre las ventajas y desventajas asociadas con el diseño y  administración de políticas de seguridad para los recursos informáticos de una  organización; capaz de diseñar estrategias que puedan garantizar la seguridad de  los recursos informáticos de tal forma que se convierta en un valor agregado en  los procesos de negocio entre cliente y empresa, basado en estándares  nacionales e internacionales y aspectos éticos-legales que rigen la seguridad  informática.",
+      "descripcion2" : "La importancia de esta materia impacta en el ámbito de las organizaciones, ya  que el Ingeniero en Sistemas Computacionales es el responsable de identificar  los riesgos ligados al empleo de los servicios informáticos, proponiendo  soluciones para dotarlos de un buen nivel de seguridad. Desarrollando  procedimientos y métodos de seguridad, además de identificar, seleccionar y especificar los mecanismos de seguridad",
+      "descripcion3" : ""
     },
   
   
@@ -633,9 +633,9 @@
       "semestre"  : 8,
       "xpos" : 8,
       "ypos" : 1,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "Actualmente la información es un activo importante en las organizaciones, ya que si posee las  características necesarias apoya a las personas en la eficiente toma de decisiones, por lo que se requiere  que inviertan en infraestructura que les permita gestionar y resguardar dicho activo, pero también  necesitan de profesionistas especializados que sean capaces de administrarlo. ",
+      "descripcion2" : "Esta asignatura provee al estudiante con la capacidad para integrar eficientemente la infraestructura  existente en una organización y Sistemas Gestores de Base de Datos con el propósito de apoyar la  toma de decisiones.",
+      "descripcion3" : " En esta asignatura se abordan las bases teóricas y prácticas referentes a la administración de bases de  datos desde la instalación, configuración, mantenimiento, seguridad de acceso y datos, monitoreo del  desempeño, así como, métodos de respaldo y recuperación de un SGBD; aplica conocimientos de  otras asignaturas, tales como: Taller de Base de Datos, Fundamentos de Base de Datos, Redes de  Computadoras, Fundamentos de Ingeniería del Software y Sistemas Operativos."
     },
   
     {
@@ -646,9 +646,9 @@
       "semestre"  : 8,
       "xpos" : 8,
       "ypos" : 2,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "Sistemas programables aporta la capacidad de diseñar e implementar interfaces hombre- máquina y  máquina-máquina para la automatización de sistemas e integrar soluciones computacionales con  diferentes tecnologías, plataformas o dispositivos. ",
+      "descripcion2" : "Para integrarla, se ha hecho un análisis de las materias Principios eléctricos y aplicaciones digitales,  Arquitectura de computadoras y Lenguajes de interfaz; identificando los temas de electrónica  analógica y digital, lenguajes de bajo nivel, programación de dispositivos y arquitecturas de cómputo. ",
+      "descripcion3" : "Esta asignatura se relaciona con las materias de inteligencia artificial y programación lógica y  funcional respectivamente, más específicamente, los temas de robótica, visión artificial, programación  lógica, entre otros. "
     },
   
     {
@@ -659,22 +659,22 @@
       "semestre"  : 8,
       "xpos" : 8,
       "ypos" : 3,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales la capacidad de aplicar  técnicas de Inteligencia Artificial mediante el desarrollo y programación de modelos matemáticos,  estadísticos y de simulación a la solución de problemas complejos de control automático, diagnóstico,  toma de decisiones, clasificación, minería de datos, es decir, problemas propios de la Inteligencia  Artificial.",
+      "descripcion2" : "Con esta asignatura se da una Introducción a la Inteligencia Artificial (IA) presentando a los  estudiantes, algunos de los métodos más utilizados en las diferentes áreas de la Inteligencia Artificial.  Para ello, se introducen las técnicas más comunes de manipulación y representación del conocimiento  y se analizan las características de las herramientas disponibles para la construcción de aplicaciones  reales, en las diferentes áreas de la IA, con el fin de conformar una actitud científica, crítica y  responsable del egresado. ",
+      "descripcion3" : "Esta materia está situada como una de las últimas del plan de estudio, debido a que el alumno necesita  tener de base el aprendizaje de otras materias que permitan que posea habilidades de estructuras de  control, listas, arboles, recursividad, así como, conocimientos de teoría de la probabilidad, autómatas  1 y 2, programación lógica y funcional, programación en lenguajes de alto nivel, conocimientos de  estructura y bases de datos."
     },
   
     {
-      "nombre" : "Desarrollo web pila completa",
-      "horas" : 4,
+      "nombre" : "Desarrollo web pila II",
+      "horas" : 5,
       "horasAula" : 2,
-      "horasLab"  : 2,
+      "horasLab"  : 3,
       "semestre"  : 8,
       "xpos" : 8,
       "ypos" : 4,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "Esta asignatura aporta al perfil del egresado la capacidad para desarrollar e  implementar sistemas de información en ambiente web para la automatización de  procesos y toma de decisiones utilizando metodologías basadas en estándares  internacionales y tecnologías emergentes, introduciéndonos a las aplicaciones  web, los conceptos del lenguaje de marcas, al lenguaje de presentación de datos y al desarrollo e implementación de servicios web",
+      "descripcion2" : "",
+      "descripcion3" : ""
     },
   
     {
@@ -685,22 +685,22 @@
       "semestre"  : 8,
       "xpos" : 8,
       "ypos" : 5,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "Esta asignatura integra los conocimientos y habilidades para soportar y mantener los servicios y  recursos de una red; implementa políticas de seguridad con el propósito de mejorar la fiabilidad y el  desempeño de la misma. ",
+      "descripcion2" : "Se compone de cuatro temas, el primero está orientado a la comprensión de las funciones de la  administración de redes para aplicarlas en el aseguramiento y optimización del desempeño de las  mismas. ",
+      "descripcion3" : "El segundo tema comprende la instalación, configuración y administración diferentes servicios de red  para satisfacer las necesidades de las organizaciones."
     },
   
     {
       "nombre" : "Prog. de dispositivos móviles IOS",
-      "horas" : 4,
+      "horas" : 5,
       "horasAula" : 2,
-      "horasLab"  : 2,
+      "horasLab"  : 3,
       "semestre"  : 8,
       "xpos" : 8,
       "ypos" : 6,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "La disminución del costo de la tecnología digital, la expansión de las telecomunicaciones inalámbricas, la mayor cobertura de la banda ancha y el aumento de las capacidades de los dispositivos móviles han hecho atractivo para la industria del desarrollo de software, en especial para los desarrolladores individuales, crear aplicaciones para este nicho de mercado. En la actualidad la empresa Apple® Inc., continua como uno de los líderes en el mercado de los dispositivos móviles, teniendo una cuota importante en la comercialización de sus productos. Siendo todo lo anterior la principal razón de aprender a desarrollar aplicaciones para las diferentes propuestas o productos con que cuenta dicha empresa. ",
+      "descripcion2" : "Para integrarla en la retícula se ha hecho un análisis del equipo de computo Mac  con que se cuenta, de los diferentes entornos de desarrollo de software que  nuestros estudiantes han utilizado, principalmente basados en el lenguaje C/C++,  buscando que la curva de aprendizaje que implican los lenguaje de programación  Objective-C y Swift sea de un nivel intermedio y que sean adquiridos de manera  práctica.",
+      "descripcion3" : "Esta asignatura se relaciona con las materias de Taller de Ética, las materias de  la Línea Programación, Sistemas Operativos, Bases de Datos, Ingeniería de  Software, Telecomunicaciones, Redes de Computadoras y Programación Web."
     },
   
     {
@@ -711,26 +711,103 @@
       "semestre"  : 8,
       "xpos" : 8,
       "ypos" : 7,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "descripcion" : "El entorno tan cambiante en la actualidad exige el desarrollo y la actualización de diversas competencias que propicien un adecuado desempeño profesional en  cualquier actividad empresarial. ",
+      "descripcion2" : "Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales, la  capacidad para desarrollar habilidades de motivación, manejo del conflictos,  facultamiento y delegación, formación y trabajo de equipo, comunicación efectiva  y toma de decisiones, que le permitan un desempeño eficiente en su ámbito  personal y profesional, considerando los aspectos legales, éticos, sociales y de  desarrollo sustentable.",
+      "descripcion3" : "Así mismo, permitirá al estudiante desarrollar una visión empresarial para  detectar áreas de oportunidad que le permitan emprender, coordinar, participar o  desarrollar proyectos aplicando las tecnologías de la información y comunicación."
     },
   
    
     {
       "nombre" : "Residencia Profesional",
-      "horas" : 4,
+      "horas" : 10,
+      "horasAula" : 0,
+      "horasLab"  : 0,
+      "semestre"  : 9,
+      "xpos" : 9,
+      "ypos" : 1,
+      "descripcion" : "La Residencia Profesional es una estrategia educativa de carácter curricular, que permite al estudiante emprender un proyecto teórico-práctico, analítico, reflexivo, crítico y profesional; con el propósito de resolver un problema específico de la realidad social y productiva, para fortalecer y aplicar sus competencias profesionales.",
+      "descripcion2" : "El proyecto de Residencia Profesional puede realizarse de manera individual, grupal o interdisciplinaria; dependiendo de los requerimientos, condiciones y características del proyecto de la empresa, organismo o dependencia. La Residencia Profesional puede ser realizada a través de proyectos integradores, bajo el esquema de educación dual, entre otros.",
+      "descripcion3" : ""
+    },
+
+    {
+      "nombre" : "Servicio social",
+      "horas" : 10,
       "horasAula" : 2,
       "horasLab"  : 2,
       "semestre"  : 9,
       "xpos" : 9,
-      "ypos" : 1,
-      "descripcion" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion2" : "REEMPLAZAR POR PARRAFOS",
-      "descripcion3" : "REEMPLAZAR POR PARRAFOS"
+      "ypos" : 2,
+      "descripcion" : "Se entiende por servicio social el trabajo de carácter temporal y obligatorio, que institucionalmente presten y ejecuten los estudiantes en beneficio de la sociedad.",
+      "descripcion2" : "Los estudiantes de los Institutos Tecnológicos del SNIT prestarán el servicio social, para cumplir con los créditos del plan de estudios.",
+      "descripcion3" : ""
+    },
+
+    {
+      "nombre" : "Crédito complementario 1",
+      "horas" : 1,
+      "horasAula" : 0,
+      "horasLab"  : 20,
+      "semestre"  : 9,
+      "xpos" : 9,
+      "ypos" : 3,
+      "descripcion" : "Consiste en la participación del estudiante en actividades académicas, culturales y deportivas presenciales o a distancia, individual o en grupo que complementan su formación profesional, cada crédito equivale a 20 de horas de trabajo de una actividad.",
+      "descripcion2" : "En la modalidad “Plan por Competencias” se requiere que cada alumno libere 5 créditos complementarios a lo largo de su estancia en el instituto y antes del 6 semestre, preferentemente.",
+      "descripcion3" : "El Programa Institucional de Tutorías, colaboración en proyectos de Investigación, desarrollo de software, participación en concursos,Emprendurismo, construcción de prototipos, participación en comités Editoriales, conservación del medio ambiente, actividadesdeportivas y Culturales, etc"
+    },
+
+    {
+      "nombre" : "Crédito complementario 2",
+      "horas" : 1,
+      "horasAula" : 0,
+      "horasLab"  : 20,
+      "semestre"  : 9,
+      "xpos" : 9,
+      "ypos" : 4,
+      "descripcion" : "Consiste en la participación del estudiante en actividades académicas, culturales y deportivas presenciales o a distancia, individual o en grupo que complementan su formación profesional, cada crédito equivale a 20 de horas de trabajo de una actividad.",
+      "descripcion2" : "En la modalidad “Plan por Competencias” se requiere que cada alumno libere 5 créditos complementarios a lo largo de su estancia en el instituto y antes del 6 semestre, preferentemente.",
+      "descripcion3" : "El Programa Institucional de Tutorías, colaboración en proyectos de Investigación, desarrollo de software, participación en concursos,Emprendurismo, construcción de prototipos, participación en comités Editoriales, conservación del medio ambiente, actividadesdeportivas y Culturales, etc"
+    },
+
+    {
+      "nombre" : "Crédito complementario 3",
+      "horas" : 1,
+      "horasAula" : 0,
+      "horasLab"  : 20,
+      "semestre"  : 9,
+      "xpos" : 9,
+      "ypos" : 5,
+      "descripcion" : "Consiste en la participación del estudiante en actividades académicas, culturales y deportivas presenciales o a distancia, individual o en grupo que complementan su formación profesional, cada crédito equivale a 20 de horas de trabajo de una actividad.",
+      "descripcion2" : "En la modalidad “Plan por Competencias” se requiere que cada alumno libere 5 créditos complementarios a lo largo de su estancia en el instituto y antes del 6 semestre, preferentemente.",
+      "descripcion3" : "El Programa Institucional de Tutorías, colaboración en proyectos de Investigación, desarrollo de software, participación en concursos,Emprendurismo, construcción de prototipos, participación en comités Editoriales, conservación del medio ambiente, actividadesdeportivas y Culturales, etc"
+    },
+
+    {
+      "nombre" : "Crédito complementario 4",
+      "horas" : 1,
+      "horasAula" : 0,
+      "horasLab"  : 20,
+      "semestre"  : 9,
+      "xpos" : 9,
+      "ypos" : 6,
+      "descripcion" : "Consiste en la participación del estudiante en actividades académicas, culturales y deportivas presenciales o a distancia, individual o en grupo que complementan su formación profesional, cada crédito equivale a 20 de horas de trabajo de una actividad.",
+      "descripcion2" : "En la modalidad “Plan por Competencias” se requiere que cada alumno libere 5 créditos complementarios a lo largo de su estancia en el instituto y antes del 6 semestre, preferentemente.",
+      "descripcion3" : "El Programa Institucional de Tutorías, colaboración en proyectos de Investigación, desarrollo de software, participación en concursos,Emprendurismo, construcción de prototipos, participación en comités Editoriales, conservación del medio ambiente, actividadesdeportivas y Culturales, etc"
+    },
+
+    {
+      "nombre" : "Crédito complementario 5",
+      "horas" : 1,
+      "horasAula" : 0,
+      "horasLab"  : 20,
+      "semestre"  : 9,
+      "xpos" : 9,
+      "ypos" : 7,
+      "descripcion" : "Consiste en la participación del estudiante en actividades académicas, culturales y deportivas presenciales o a distancia, individual o en grupo que complementan su formación profesional, cada crédito equivale a 20 de horas de trabajo de una actividad.",
+      "descripcion2" : "En la modalidad “Plan por Competencias” se requiere que cada alumno libere 5 créditos complementarios a lo largo de su estancia en el instituto y antes del 6 semestre, preferentemente.",
+      "descripcion3" : "El Programa Institucional de Tutorías, colaboración en proyectos de Investigación, desarrollo de software, participación en concursos,Emprendurismo, construcción de prototipos, participación en comités Editoriales, conservación del medio ambiente, actividadesdeportivas y Culturales, etc"
     }
-  
-  
+    
       ]
   }
   

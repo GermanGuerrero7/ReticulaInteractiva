@@ -1,32 +1,13 @@
 {
-  "name": "reticulainteractiva",
-  "version": "1.0.0",
-  "description": "Reticula interactiva que ayuda a los alumnos del tec laguna a dar seguimiento a los creditos y materias",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/keygen7/ReticulaInteractiva.git"
-  },
-  "keywords": [
-    "tec",
-    "laguna",
-    "estudiantes",
-    "alumnos",
-    "reticula",
-    "materias"
-  ],
-  "author": "Germán Guerrero Mtz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/keygen7/ReticulaInteractiva/issues"
-  },
-  "homepage": "https://github.com/keygen7/ReticulaInteractiva#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.13",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0"
   }
 }

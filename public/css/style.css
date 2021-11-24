@@ -611,7 +611,7 @@ body {
   
       #section-left-footer >a{
         
-        margin-left: em;
+        
         text-decoration: none !important;
         color: #78971d;
         
@@ -906,5 +906,10 @@ body {
     line-height: 1em;
   }
   
+  .alarmas{
+    color: #00B122;
+    padding-top: 1em;
+    
+  }
   
   
