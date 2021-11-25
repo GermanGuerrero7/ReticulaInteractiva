@@ -14,6 +14,7 @@ var suma = 0;
 var nombre = "";
 var sumaCred = 0;
 var cuadros = []; 
+var marcados = [];
 
 function ParseElements(data, elmID) {
   try {
@@ -176,7 +177,10 @@ function ParseElements(data, elmID) {
     for(var a = 0; cuadros.length; a++){
       cuadros[a].onclick = changeColor;
       //console.log(hrsArray[a]);
+      
     } 
+
+   
   } catch (e) {
     console.log("ParseElements(): " + e);
   }
@@ -421,6 +425,17 @@ function changeColor(){
      
   return false;
 }
+
+
+function guardar() {
+  for (let index = 0; index < cuadros.length; index++) {
+    if(cuadros[index].style.backgroundColor === "rgb(82, 81, 74)"){
+      console.log(index);
+    }
+   
+  }
+}
+
 
 
 
