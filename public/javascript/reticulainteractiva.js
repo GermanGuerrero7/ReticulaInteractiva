@@ -419,10 +419,9 @@ function changeColor(){
   }
 // Almacena en la variable global el ultimo elemento en ser agregado
   nombre = this.id;
-  //console.log(nombre + "despues")
-  
+  //console.log(nombre + "despues")  
 }
-     
+     guardar();
   return false;
 }
 

@@ -109,7 +109,7 @@ router.post('/register',(req,res)=>{
                 console.log(user);
                 if(user){
                     errors.push({msg: 'Número de control ya registrado'});
-                    res.render('register', {errors, userid, nombre, email, password, password2, carrera, semestre, especialidad});
+                    res.render('pages/register', {errors, userid, nombre, email, password, password2, carrera, semestre, especialidad});
                 } else {
                     const newUser = new User({
                         userid: userid,
