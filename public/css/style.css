@@ -405,6 +405,8 @@ body {
       #Tabla{
         padding-left: 0.8rem;
       }
+
+
   
       
   }
@@ -603,7 +605,7 @@ body {
       }
   
       #Tabla{
-        margin-top: 1.1em;
+        /* margin-top: 0.5em; */
         margin-left: 5em;
       }
   
@@ -726,7 +728,7 @@ body {
   @media screen /*and (prefers-color-scheme: Dark)*/ {
     body {
       background-color: #F4EDED; /*Anterior: #010101*/
-      color: #eee;
+      color: #86A225;
     }
     a, a:link, a:visited {
       color: #fff;
@@ -914,4 +916,19 @@ body {
     
   }
   
-  
+/* ************************** checkbox - modo edicion *******************************/
+
+#slider{
+  display: flex;
+  color: #52514a;
+  justify-content: end;
+  margin-right: 4em;
+  font-weight: 600;
+  padding-bottom: 0em;
+}
+
+input[type='checkbox']{
+  accent-color: #b6e42c;
+  color: white;
+  cursor: pointer;
+}

@@ -15,6 +15,7 @@ var nombre = "";
 var sumaCred = 0;
 var cuadros = []; 
 var marcados = [];
+var edicionFlag = false;
 
 function ParseElements(data, elmID) {
   try {
@@ -170,17 +171,20 @@ function ParseElements(data, elmID) {
 
     // Obtiene una collecion de elementos html de tipo li 
     // la cual contiene los recuadros 
-    var cuadros = Array.from(document.getElementsByTagName("li"));
+    
+    
+      var cuadros = Array.from(document.getElementsByTagName("li"));
+    for(var a = 0; cuadros.length; a++){
+      cuadros[a].onclick = changeColor;
+      console.log("entro");
+      //console.log(hrsArray[a]);
+    } 
+    
+    
     
     // Recorre el arreglo con los elementos y los pone a la escucha del evento onclick
     // posteriormente se llama al la funcion changeColor
-    for(var a = 0; cuadros.length; a++){
-      cuadros[a].onclick = changeColor;
-      //console.log(hrsArray[a]);
-      
-    } 
-
-   
+    
   } catch (e) {
     console.log("ParseElements(): " + e);
   }
@@ -272,6 +276,9 @@ function OpenDialog(eID,elName) {
     // Normally I would put it on the modal, but this fits ****Se va a remover
     closeBtn.setAttribute("onclick","CloseDialog('" + eID + "');");
     closeBtn.focus();
+
+    
+
   } catch (e) {
     console.log("OpenDialog(): " + e);
   }
@@ -386,7 +393,8 @@ document.onkeydown = function(evt) {
 
 function changeColor(){
   
-
+  edicionFlag = document.getElementById("edicion").checked;
+  if(edicionFlag){
   
   this.style.backgroundColor = "#52514a";
   //console.log(this.children[2].innerText.slice(-1));
@@ -420,25 +428,45 @@ function changeColor(){
 // Almacena en la variable global el ultimo elemento en ser agregado
   nombre = this.id;
   //console.log(nombre + "despues")  
-}
-     guardar();
+     
   return false;
 }
-
-
-function guardar() {
-  for (let index = 0; index < cuadros.length; index++) {
-    if(cuadros[index].style.backgroundColor === "rgb(82, 81, 74)"){
-      console.log(index);
-    }
-   
-  }
 }
 
+function guardar(){
+  marcados = [];
+  cuadros = document.getElementsByTagName("li");
+  for(var i = 0; i < cuadros.length; i++){
+    if(document.getElementsByTagName("li")[i].style.backgroundColor === "rgb(82, 81, 74)"){
+      marcados.push(i)
+    }
+  }
+
+  console.log(marcados)
+}
+}
+
+guardados = [0,3,12,13,14,15,18,19,20,21,24,25,26,27,48,51];
 
 
+function recuperar(){
+  var materias = document.getElementsByTagName("li");
+  for (let index = 0; index < guardados.length; index++) {
+      //document.getElementsByTagName("li")[guardados[index]].style.backgroundColor = "rgb(82, 81, 74)";
+      //suma += parseInt(document.getElementsByTagName("li")[guardados[index]].children[2].innerText.slice(-1));
+      materias[guardados[index]].style.backgroundColor = "rgb(82, 81, 74)";
+      suma += parseInt(materias[guardados[index]].children[2].innerText.slice(-1));
+      if(guardados[index] == 41 || guardados[index] == 43 || guardados[index] == 48
+         || guardados[index] == 50 || guardados[index] == 51){
+          sumaCred += parseInt(materias[guardados[index]].children[2].innerText.slice(-1))
+          document.getElementById("especialidad-cred").innerHTML = sumaCred.toString();
+         }
+         document.getElementById("especialidad-rest").innerHTML = (25 - sumaCred).toString();
+  }
+  document.getElementById("credsel").innerHTML = suma.toString();
+  
 
-
+}
 
 
 
