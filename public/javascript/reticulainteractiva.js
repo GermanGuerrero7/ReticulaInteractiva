@@ -17,7 +17,8 @@ var cuadros = [];
 var marcados = [];
 var edicionFlag = false;
 var seleccion = [];
-
+var flagResidencia = false;
+var flagServicio = false;
 
 
 function ParseElements(data, elmID) {
@@ -426,8 +427,16 @@ function changeColor(){
   // Bloque para validar las alarmas
   if(suma > (260*.7)){
     document.getElementById("alarma-servicio").innerHTML = "¡Ya puedes tomar el servicio social!";
+    if(flagServicio === false){
+      alert("¡Ya puedes tomar el servicio social!");
+      flagServicio = true;
+    }
   }if(suma > 280*.8){
     document.getElementById("alarma-residencia").innerHTML = "¡Felicidades! Ya puedes tomar tu residencia";
+    if(flagResidencia === false){
+      alert("¡Felicidades! Ya puedes tomar tu residencia");
+      flagResidencia = true;
+    }
   }
 // Almacena en la variable global el ultimo elemento en ser agregado
   nombre = this.id;
@@ -470,7 +479,7 @@ update.addEventListener('click', _ => {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data)
-  }).then(response => console.log(response.json))
+  }).then(response => alert("Materias guardadas correctamente"))
   .catch(error => console.log(error))
 
 })

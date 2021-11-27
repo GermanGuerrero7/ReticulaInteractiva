@@ -9,5 +9,24 @@
     "mongoose": "^6.0.13",
     "passport": "^0.5.0",
     "passport-local": "^1.0.0"
-  }
+  },
+  "name": "reticulainteractiva",
+  "version": "1.0.0",
+  "description": "Ayuda a los alumnos del tec laguna a seguir su trayectoria academica",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keygen7/ReticulaInteractiva.git"
+  },
+  "author": "German Guerrero Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keygen7/ReticulaInteractiva/issues"
+  },
+  "homepage": "https://github.com/keygen7/ReticulaInteractiva#readme"
 }

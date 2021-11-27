@@ -18,9 +18,6 @@ body {
     display: flex;      
     flex-direction: row;
     justify-content: space-between;
-    
-    
-    
   }
   
   /* header > *, footer > *, main > *:not(#Elements) {
@@ -391,6 +388,11 @@ body {
        
           
       }
+
+      .sidebar >#update-button{
+        display: flex;
+        justify-content: center;
+      }
       
       #sidebar p{     /*Cambia como se representan las variables en los parrafos */
         color: #52514a;
@@ -627,6 +629,11 @@ body {
         text-align: justify;
         margin-right: 2em;
         
+      }
+
+      .sidebar >#update-button{
+        display: flex;
+        justify-content: center;
       }
   
   }
@@ -898,6 +905,10 @@ body {
     background-color: #9f9d90;
   }
   #update-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-left: 0.5em;
     background-color: #9f9d90;
   }
   
