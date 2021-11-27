@@ -46,6 +46,10 @@ especialidad : {
     type : String,
     required : true
 },
+seleccion : {
+  type: Array,
+  required: false
+},
 date :{
   type : Date,
   default : Date.now

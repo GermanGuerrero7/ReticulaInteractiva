@@ -13,9 +13,12 @@ var DialogTrigger;
 var suma = 0;
 var nombre = "";
 var sumaCred = 0;
-var cuadros = []; 
+var cuadros = [];
 var marcados = [];
 var edicionFlag = false;
+var seleccion = [];
+
+
 
 function ParseElements(data, elmID) {
   try {
@@ -64,24 +67,24 @@ function ParseElements(data, elmID) {
       //stringCat = stringCat.split(' ').join('_');
       //stringCat = stringCat.split(',').join('');
       elementNode.classList.add("cat-" + stringCat);
-      
+
       // Make the name container and give it an id
       // Hace un contenedor del nombre y le da un id
       var nameDiv = document.createElement("div");
       nameDiv.setAttribute("id","name" + json.nombre);
       // Coloca el nombre en la posición central de cada recuadro
-      nameDiv.innerHTML = json.nombre; 
-      
+      nameDiv.innerHTML = json.nombre;
+
       // Este bloque crea los div de cada categoría
-      var semestreDiv = document.createElement("div"); 
+      var semestreDiv = document.createElement("div");
       semestreDiv.innerHTML = json.semestre;
-      var hrsTotales = document.createElement("div"); 
+      var hrsTotales = document.createElement("div");
       hrsTotales.innerHTML = "Hrs. Totales: " + json.horas;
-      var hrsAulaDiv = document.createElement("div"); 
-      hrsAulaDiv.innerHTML = "Hrs. Aulas: " + json.horasAula;    
-      var hrsLabDiv = document.createElement("div"); 
+      var hrsAulaDiv = document.createElement("div");
+      hrsAulaDiv.innerHTML = "Hrs. Aulas: " + json.horasAula;
+      var hrsLabDiv = document.createElement("div");
       hrsLabDiv.innerHTML = "Hrs. Lab: " + json.horasLab;
-      
+
       // Make the button and give it an id and ARIA bits
       // Crea el bóton y le da un id y ARIA Bits (Atributo de accesibilidad)
       var detailButton = document.createElement("button");
@@ -96,7 +99,7 @@ function ParseElements(data, elmID) {
       elementNode.appendChild(semestreDiv);
       elementNode.appendChild(nameDiv);
       elementNode.appendChild(hrsTotales);
-      elementNode.appendChild(hrsAulaDiv); 
+      elementNode.appendChild(hrsAulaDiv);
       elementNode.appendChild(hrsLabDiv);
       elementNode.appendChild(detailButton); //Pendiente
       // Add the <li> to the <ol>
@@ -169,22 +172,23 @@ function ParseElements(data, elmID) {
     pero es necesario sacarlo de la tabla para que no se desborde
     ***queda pendiente***/
 
-    // Obtiene una collecion de elementos html de tipo li 
-    // la cual contiene los recuadros 
-    
-    
-      var cuadros = Array.from(document.getElementsByTagName("li"));
+    // Obtiene una collecion de elementos html de tipo li
+    // la cual contiene los recuadros
+
+
+    var cuadros = Array.from(document.getElementsByTagName("li"));
     for(var a = 0; cuadros.length; a++){
       cuadros[a].onclick = changeColor;
       console.log("entro");
       //console.log(hrsArray[a]);
-    } 
+    }
     
     
-    
+
+
     // Recorre el arreglo con los elementos y los pone a la escucha del evento onclick
     // posteriormente se llama al la funcion changeColor
-    
+
   } catch (e) {
     console.log("ParseElements(): " + e);
   }
@@ -250,7 +254,7 @@ function OpenDialog(eID,elName) {
     .then(response => response.json())
     .then(json => ParseElementDetail(json, "ElementDetail",elName));
     //ParseElementDetail(data,"ElementDetail",elName);
-    
+
     // Hide the content regions from AT
     // Esconde las regiones de contenido para el AT
     for (var i = 0; i < landmarks.length; i++) {
@@ -270,20 +274,20 @@ function OpenDialog(eID,elName) {
     // Hace el dialogo modal
     dialog.setAttribute("aria-modal","true");
     // dialog.setAttribute("data-id",eID);
-    dialog.removeAttribute("hidden"); 
+    dialog.removeAttribute("hidden");
     // Put focus on the close button
     // Pone el foco sobre el botón cerrar
     // Normally I would put it on the modal, but this fits ****Se va a remover
     closeBtn.setAttribute("onclick","CloseDialog('" + eID + "');");
     closeBtn.focus();
 
-    
+
 
   } catch (e) {
     console.log("OpenDialog(): " + e);
   }
 
-  
+
 }
 
 // Función para cerrar los dialogos
@@ -367,7 +371,7 @@ function ParseElementDetail(data, elmID, elName) {
     console.log("ParseElementDetail(): " + e);
   }
 
-  
+
 }
 
 // Gestiona el recorrido de la tabla con el teclado, está obsoleto, se necesita reconstruir
@@ -392,10 +396,10 @@ document.onkeydown = function(evt) {
 // Tambien hace la suma de los creditos
 
 function changeColor(){
-  
+
   edicionFlag = document.getElementById("edicion").checked;
   if(edicionFlag){
-  
+
   this.style.backgroundColor = "#52514a";
   //console.log(this.children[2].innerText.slice(-1));
   //console.log(this);
@@ -405,7 +409,7 @@ function changeColor(){
   if(!(nombre === this.id)){
 
     // Bloque para seleccion de elementos de especialidad
-    if(this.id === "Desarrollo web pila completa I" || this.id === "Prog. de dispositivos móviles en Android" || 
+    if(this.id === "Desarrollo web pila completa I" || this.id === "Prog. de dispositivos móviles en Android" ||
     this.id === "Desarrollo web pila II" || this.id === "Prog. de dispositivos móviles IOS" || this.id === "Desarrollo de hab. prof. en inf."){
       sumaCred += parseInt(this.children[2].innerText.slice(-1))
       document.getElementById("especialidad-cred").innerHTML = sumaCred.toString();
@@ -427,29 +431,60 @@ function changeColor(){
   }
 // Almacena en la variable global el ultimo elemento en ser agregado
   nombre = this.id;
-  //console.log(nombre + "despues")  
-     
+  //console.log(nombre + "despues")
+
   return false;
+}
 }
 }
 
 function guardar(){
-  marcados = [];
+  seleccion = [];
   cuadros = document.getElementsByTagName("li");
   for(var i = 0; i < cuadros.length; i++){
     if(document.getElementsByTagName("li")[i].style.backgroundColor === "rgb(82, 81, 74)"){
-      marcados.push(i)
+      seleccion.push(i)
     }
   }
 
-  console.log(marcados)
+  console.log(seleccion)
 }
-}
-
-guardados = [0,3,12,13,14,15,18,19,20,21,24,25,26,27,48,51];
+//seleccion = [0,3,12,13,14,15,18,19,20,21,24,25,26,27,48,51];
 
 
-function recuperar(){
+
+
+
+const update = document.querySelector('#update-button');
+
+
+// Listener del boton guardar
+update.addEventListener('click', _ => {
+  guardar()
+  const data = {
+    "seleccion": JSON.parse(JSON.stringify(seleccion)) //Convierte el arreglo a JSON con sus indices
+  }
+  console.log(data)
+  // Hace una peticion para mandar el arreglo que contiene las materias seleccionadas
+  fetch('/save/', {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
+  }).then(response => console.log(response.json))
+  .catch(error => console.log(error))
+
+})
+
+document.addEventListener("DOMContentLoaded", (event)=>{
+  console.log('DOM fully loaded and parsed');
+  recuperar();
+})
+var guardados = user.seleccion;
+
+
+async function recuperar(){
+  let delayres = await delay(500);
+ 
   var materias = document.getElementsByTagName("li");
   for (let index = 0; index < guardados.length; index++) {
       //document.getElementsByTagName("li")[guardados[index]].style.backgroundColor = "rgb(82, 81, 74)";
@@ -468,5 +503,10 @@ function recuperar(){
 
 }
 
-
-
+function delay(delayInms) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(2);
+    }, delayInms);
+  });
+}

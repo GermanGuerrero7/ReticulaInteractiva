@@ -155,4 +155,35 @@ router.get('/logout',(req,res)=>{
     req.flash('success_msg','Has cerrado sesión');
     res.redirect('./login');
  })
-module.exports  = router;
+
+
+//  router.put('/save',
+//  function(req, res) {
+//    // If this function gets called, authentication was successful.
+//    // `req.user` contains the authenticated user.
+//    console.log(req.user.userid)
+//       //const userid = req.user._id; 
+//       const filter = {userid: req.user.userid};
+      
+//     const user = User.findOneAndUpdate({ filter, seleccion:  [0,3,12,13,14,15,18,19,20,21,24,25,26,27,48,51])
+//     user.seleccion = req.body.seleccion;
+//     // const doc = user.update();
+//     console.log(req.body.seleccion);
+//  });
+
+// router.put('/save/', (req, res) => {
+//       User.findOne({userid: req.user.userid})
+//     .then(puppies => res.json(puppies))
+//     .catch(err => res.status(400).json("Error: " + err))
+// })
+
+router.put('/save/', async (req, res) => {
+    const updates = await req.body
+      console.log(updates)
+      User.findOneAndUpdate({userid: req.user.userid}, updates, {new: true})
+    .then(puppies => res.json(puppies))
+    .catch(err => res.status(400).json("Error: " + err))
+})
+
+
+ module.exports  = router;
