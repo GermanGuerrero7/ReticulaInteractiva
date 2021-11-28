@@ -7,7 +7,7 @@ const session = require('express-session')
 const flash = require('connect-flash')
 const passport = require('passport');
 require("./config/passport")(passport)
-heroku config:set MONGODB_URI="mongodb+srv://keygen7:8tTpMr8N8DHhZB6@cluster0.peny7.mongodb.net/RI?retryWrites=true&w=majority";
+//heroku config:set MONGODB_URI="mongodb+srv://keygen7:8tTpMr8N8DHhZB6@cluster0.peny7.mongodb.net/RI?retryWrites=true&w=majority";
 
 //mongoose
 mongoose.connect(MONGODB_URI,{useNewUrlParser: true, useUnifiedTopology : true,})
