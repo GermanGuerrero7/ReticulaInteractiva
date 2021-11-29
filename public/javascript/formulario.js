@@ -5,7 +5,7 @@ const expresiones = {
 	userid: /^((N)[0-9]{9})|(C)[0-9]{9}|[0-9]{9}|((N)[0-9]{8}|([0-9]{8}))/, // 8 numeros y numeros de control que tengan C o N.
 	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
 	// password: /^.{4,12}$/, // 4 a 12 digitos. 
-	password: /^(?=.*\d)(?=.*[A-Z])(?=.*[a-z]){8,20}$/,
+	password: /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,}$/,
 	email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
 
 	///^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,}$/
