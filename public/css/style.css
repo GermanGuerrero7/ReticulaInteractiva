@@ -890,6 +890,7 @@ body {
     border-radius: 0.7em;
     font-weight: bold;
     padding: 0.7em 1em;
+    cursor:pointer;
   }
   
   #buttonSesion{
