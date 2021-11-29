@@ -10,15 +10,15 @@
 </head>
 <body>
     <%- include('../partials/header') %>
-    <%- include ('../partials/messages') %>
+    
     <main>
 		<form action="/register" class="formulario" id="formulario" method="POST">
 			<!-- Grupo: Usuario -->
-			<div class="formulario__grupo" id="grupo__username">
-				<label for="username" class="formulario__label">No. Control</label>
+			<div class="formulario__grupo" id="grupo__userid">
+				<label for="userid" class="formulario__label">No. Control</label>
 				<div class="formulario__grupo-input">
 					<input 
-                    type="userid" 
+                    type="username" 
                     class="formulario__input" 
                     name="userid" id="username" 
                     placeholder="Ej. 19130343"
@@ -27,7 +27,7 @@
                     
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
-				<p class="formulario__input-error">El numero de control solo puede contener numeros y el maximo son 8 dígitos.</p>
+				<p class="formulario__input-error">El número de control solo puede contener numeros y el máximo son 8 dígitos.</p>
 			</div>
 
 			<!-- Grupo: Nombre -->
@@ -44,7 +44,7 @@
                     
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
-				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+				<p class="formulario__input-error">El usuario tiene que contener 4 a 16 dígitos y solo puede contener números, letras y guión bajo.</p>
 			</div>
 
 			<!-- Grupo: Contraseña -->
@@ -56,12 +56,13 @@
                     class="formulario__input" 
                     name="password" 
                     id="password"
-					placeholder="Al menos 6 dígitos, un símbolo, una mayúscula y un número"
+					placeholder="+8 caractéres, mayúsculas, minúsculas y números."
                     value="<%= typeof password != 'undefined' ? password : '' %>"
                     >
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				
 				</div>
-				<p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+				<p class="formulario__input-error">La contraseña debe ser mayor a 8 caractéres debe contenener mayúsculas, minúsculas, números.</p>
 			</div>
 
 			<!-- Grupo: Contraseña 2 -->
@@ -139,15 +140,19 @@
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">.</p>
+				<!-- Mensaje del servidor -->
+
 			</div>
-
-
+			
+			
 			<!-- Grupo: Terminos y Condiciones -->
 			<div class="formulario__grupo" id="grupo__terminos">
+				
 				<label class="formulario__label">
 					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
 					Acepto los Terminos y Condiciones
 				</label>
+				<p><%- include ('../partials/messages') %></p>
 			</div>
 
 			<div class="formulario__mensaje" id="formulario__mensaje">
@@ -159,6 +164,8 @@
 				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario hecho correctamente</p>
 			</div>
 		</form>
+
+		
 
         <div class="formulario__mensaje" id="formulario__mensaje">
             <p >¿Tienes una cuenta? <a href="/users/login">Login</a></p>

@@ -3,9 +3,10 @@ const inputs = document.querySelectorAll('#formulario input');
 
 const expresiones = {
 	userid: /^((N)[0-9]{9})|(C)[0-9]{9}|[0-9]{9}|((N)[0-9]{8}|([0-9]{8}))/, // 8 numeros y numeros de control que tengan C o N.
+	// userid: /^[0-9]{8}$/,
 	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-	// password: /^.{4,12}$/, // 4 a 12 digitos. 
-	password: /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,}$/,
+	// password: /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,}$/, // 4 a 12 digitos. 
+	password: /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$/, // Mayor a 8 caracteres
 	email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
 
 	///^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,}$/
@@ -102,7 +103,7 @@ formulario.addEventListener('submit', (e) => {
 		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
 		setTimeout(() => {
 			document.getElementById('formulario__mensaje-exito').classList.remove('formulario__mensaje-exito-activo');
-		}, 5000);
+		}, 1000);
 
 		document.querySelectorAll('.formulario__grupo-correcto').forEach((icono) => {
 			icono.classList.remove('formulario__grupo-correcto');
