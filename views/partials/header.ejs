@@ -11,8 +11,8 @@
 
         <!-- <a href="../login">
         <button id="buttonSesion" >Iniciar Sesión</button>
-        </a> -->
-        <!-- <a href="../register">
+        </a>
+        <a href="../register">
         <button type="submit"  id="buttonRegistro">Registrarse</button>
         </a> -->
         <a href="../logout">
@@ -33,9 +33,9 @@
     <% if (locals.user) { %>
 
         const user = <%- JSON.stringify(user); %>
-        document.getElementById("buttonRegistro").remove()
+       
         document.getElementById("buttonCerrar").style.visibility ="visible";
-        // document.getElementById("buttonSesion").style.visibility ="hidden";
+        
 
 <% } %>
   
