@@ -353,7 +353,7 @@ body {
   }
   
   /************ Tamaño movil **********************/
-  @media (min-width: 20em) and (max-width: 60em) {  
+  @media (min-width: 20em) and (max-width: 40em) {  
     #Elements li.row1:hover {
       transform-origin: left;
     }
@@ -408,13 +408,18 @@ body {
         padding-left: 0.8rem;
       }
 
+      #logocorp {
+        width: 12em;
+        margin-bottom: -0.8em;
+      }
+
 
   
       
   }
   
   /******* Tamaño escritorio *********/
-  @media all and (min-width: 60em) { 
+  @media (min-width: 40em) { 
     #Elements ol {
       font-size: .67vw;
       display: grid;

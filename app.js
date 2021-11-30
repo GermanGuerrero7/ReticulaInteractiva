@@ -51,7 +51,6 @@ app.get('/login', function (req, res) {
 
 app.get('/register', function (req, res) {
     res.render('pages/register');
-    
 });
 
 const port = process.env.NODE_ENV === 'production' ? (process.env.PORT || 80) : 4000;

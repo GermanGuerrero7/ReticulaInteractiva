@@ -446,8 +446,9 @@ function changeColor(){
 }
 }
 }
-
-function guardar(){
+  // Almacena en el arreglo seleccion los indices de los recuadros que contienen a las materias
+  // previamente seleccionadas si el backgroundColor cumple con la condicion.
+  function guardar(){
   seleccion = [];
   cuadros = document.getElementsByTagName("li");
   for(var i = 0; i < cuadros.length; i++){

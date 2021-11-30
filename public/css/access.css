@@ -39,6 +39,8 @@ main.main-login{
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
+
+
 	
 }
 
@@ -198,6 +200,9 @@ main.main-login{
 
 
 /* ----- -----  Mediaqueries ----- ----- */
+
+
+
 @media screen and (max-width: 800px) {
 	.formulario {
 		grid-template-columns: 1fr;
@@ -244,6 +249,7 @@ header{
     border-radius: 0.7em;
     font-weight: bold;
     padding: 0.7em 1em;
+	cursor:pointer;
   }
   
   #buttonSesion{
@@ -312,6 +318,75 @@ header{
 	font-size: small;
 	width: 100%;
 	vertical-align: bottom;
-
 	 
 	}
+
+	/* vista movil */
+@media (min-width: 20em) and (max-width: 40em) {  
+	main.main-login {
+		width: 90% !important;
+		margin: auto;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	main {
+		max-width: 800px;
+		width: 90%;
+		margin: auto;
+		padding: 40px;
+		color: #52514a;
+	}
+
+	.form{
+		max-width: fit-content;
+		padding: 0.1 em;
+	}
+
+	.formulario-login{
+		width: 100%;
+	}
+
+	header{
+		text-align: center;
+	}
+
+	img.logo2{
+		margin-top: 0;
+		width: 12em;
+	}
+
+	.formulario__btn-login {
+		margin-top: 35px;
+		line-height: 30px;
+		width: 100%;
+		background-color: #86a225;
+		color: #fff;
+		font-weight: bold;
+		border: none;
+		border-radius: 3px;
+		cursor: pointer;
+		transition: .1s ease all;
+	}
+
+
+	#section-right-footer {
+		width: 100%;
+		margin-top: 6px;
+		text-align: center;
+	}
+
+	footer{
+		display: flex;      
+		flex-direction: column;
+		justify-content: space-between;
+		color: #52514a;
+		font-family: sans-serif;
+		font-size: small;
+		width: 100%;
+		vertical-align: bottom;
+		text-align: center;
+		 
+		}
+
+}
